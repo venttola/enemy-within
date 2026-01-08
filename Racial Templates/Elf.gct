@@ -1,0 +1,540 @@
+{
+	"version": 5,
+	"id": "BWfRdrfiE8RgG8ATZ",
+	"traits": [
+		{
+			"id": "TMwFiVBiDtlsRnGJ1",
+			"name": "Elf",
+			"ancestry": "Elf",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "trox9p7J6Oin8IDhv",
+					"name": "Decreased Strength",
+					"reference": "B14",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tUtcRDOQvqUjsTAAo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tCgsJ0W9A8mHTtc-e"
+					},
+					"name": "Increased Basic Move",
+					"reference": "B17",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tijcjrrC7Va18XW1y",
+					"name": "Increased Dexterity",
+					"reference": "B15",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "movf3URThbVqOQwdZ",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "td90W6Rz1nSo3M9D-",
+					"name": "Magery",
+					"reference": "B66",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "mwIMCpVnZWtaBNUNh",
+							"name": "Dance",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mmJ5jcubukLc3tt_U",
+							"name": "Dark-Aspected",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mZkj3Ui53Mg9Lp2lO",
+							"name": "Day-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mAHbsK2ebP7nOnKmJ",
+							"name": "Musical",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mKTpm_HOVkZuV_bO9",
+							"name": "Night-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "ml3ZSsCz3ja3SS87D",
+							"name": "One College",
+							"notes": "@College@",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "moP36cBVEbYfQL1zC",
+							"name": "Solitary",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mVbeAbuySKso0N3TT",
+							"name": "Song",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "spell_bonus",
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Clerical"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "spell_bonus",
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Druid"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "spell_bonus",
+							"match": "college_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Unholy"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tx33eWaU-Gq6JRipE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: Reikspiel",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "m6An4qSXhR1MAqwaO",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points"
+						},
+						{
+							"id": "mE4h1iMLm-06n_X6L",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mnLiDXonjhlk-Qawr",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mk4Q2Xe6mcp0G7PcI",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "mhw3o_J4j4GeOWfpW",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m2qLFR-4JqqxvDp4f",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mATneQMRtWnfysaz_",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mZBzvUpaRDiynGXxf",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points"
+						},
+						{
+							"id": "m0cmXaSv3m1WFDRGc",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "tPBKPlRb2G_3xBHS_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tkdGzhkqoMAQbknEc"
+					},
+					"name": "Acute Vision",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "tZqa6lU8ygg8f8lCc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tk0ZKpvgqpE35AZcM"
+					},
+					"name": "Night Vision",
+					"reference": "B71,P87",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 6,
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "tXbFtcBKx4mX0YRS8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t0eVKnl-kbhJzS6cL"
+					},
+					"name": "Chauvinistic",
+					"reference": "B163",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from individuals sensitive to criticism or insults that you interact with",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "th0_SM5bIciwCjyrd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tCidFlSADk-zraK1o"
+					},
+					"name": "Social Stigma (Minority Group)",
+					"reference": "B155",
+					"notes": "You are a member of a minority that the dominant culture around you regards as “barbarians” or “inferior.”",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others except your own kind",
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others of your own kind in an area, profession, or situation where your minority is especially rare",
+							"amount": 2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tdnSuZ6rxCRj_kl5u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t_ZUyO0Xhmi2p0Vku"
+					},
+					"name": "Unnatural Features (Tall \u0026 Thin)",
+					"reference": "B22",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -1,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "tD7zr7c4gUbms3zQw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "ttHkLI9zwzfeOIEZc"
+					},
+					"name": "Intolerance (Dwarves)",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mQ4lditlRNXWKe1eL",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mEWPLKX1D39S6UHzM",
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost": -2,
+							"cost_type": "points"
+						},
+						{
+							"id": "mneSP6pLxxmnIIY1g",
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m_18ywFfQqTZYgSJU",
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				}
+			],
+			"calc": {
+				"points": 15
+			}
+		}
+	]
+}

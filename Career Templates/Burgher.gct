@@ -1,0 +1,1755 @@
+{
+	"version": 5,
+	"id": "BdNI6YLXfrU5e9ktK",
+	"traits": [
+		{
+			"id": "TX_wTkctPx_o77SxM",
+			"name": "Burgher",
+			"reference": "BS210",
+			"children": [
+				{
+					"id": "T0iZV5nqzxSGOd8f3",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "tvBTd6EO1ySqNrf3N",
+							"name": "Increased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 40,
+								"current_level": 2
+							}
+						},
+						{
+							"id": "tcP8tRTQrezSXApLn",
+							"name": "Increased Will",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5,
+								"current_level": 1
+							}
+						}
+					],
+					"calc": {
+						"points": 45
+					}
+				},
+				{
+					"id": "T9fetseh0F1NiUpAB",
+					"name": "Class Advantage",
+					"children": [
+						{
+							"id": "tE8QUApjvxeWKoqzg",
+							"name": "Talent (Business Acumen)",
+							"reference": "B90",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "mrbzZ1cCzRkEBrhhY",
+									"name": "Reaction Bonus",
+									"local_notes": "Business partners"
+								}
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Accounting"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Administration"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Economics"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Finance"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Gambling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Market Analysis"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Merchant"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Propaganda"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 20,
+								"current_level": 2
+							}
+						},
+						{
+							"id": "T4IKcsA0a1cCYHmgJ",
+							"name": "20 points chosen from",
+							"children": [
+								{
+									"id": "tlwZ4PafmH-Owe_79",
+									"name": "Charisma",
+									"reference": "B41",
+									"local_notes": "+1/level to Influence rolls",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fortune-telling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "leadership"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "panhandling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "public speaking"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "twF9Y56Q96miMJsmK",
+									"name": "Eidetic Memory",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mFOkBl4w9OZSrLnvQ",
+											"name": "Photographic",
+											"reference": "B51",
+											"cost_adj": "5",
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "th2vNXaYbysULBMhQ",
+									"name": "Eidetic Memory",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mjOuAj-oQ0Gn-kNqJ",
+											"name": "Photographic",
+											"reference": "B51",
+											"cost_adj": "5"
+										}
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tuFowWlx8TUr8HQ9I",
+									"name": "Empathy",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mSgLrLKUrEcw54mIx",
+											"name": "Remote",
+											"reference": "P48",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 15,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "detect lies"
+											},
+											"amount": 3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fortune-telling"
+											},
+											"amount": 3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "psychology"
+											},
+											"amount": 3
+										}
+									],
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "tr_DjaKTVuJBOMeuK",
+									"name": "Empathy (Sensitive)",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "m3IWji9gMKo4e-xke",
+											"name": "Remote",
+											"reference": "P48",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "detect lies"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fortune-telling"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "psychology"
+											},
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tnpidDU0AyFL2rgVW",
+									"name": "Honest Face",
+									"reference": "B101",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "tkI29Tb5nUdqoqwcR",
+									"name": "No Hangover",
+									"reference": "B101",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "titw110WF_vOxBY4E",
+									"name": "Penetrating Voice",
+									"reference": "B101",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "t4_-QCl0UrxyLcQCI",
+									"name": "Indomitable",
+									"reference": "B60",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 15,
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "txrAh60uEwRDzMSs0",
+									"name": "Lightning Calculator",
+									"reference": "B66",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mMben6FAbT8PUaH75",
+											"name": "Intuitive Mathematician",
+											"reference": "B66",
+											"cost_adj": "3",
+											"disabled": true
+										}
+									],
+									"base_points": 2,
+									"calc": {
+										"points": 2
+									}
+								},
+								{
+									"id": "tdxs6F7jDnU14Dz_I",
+									"name": "Talent (Business Acumen)",
+									"reference": "B90",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "mGPX8yq76vTC8MKWZ",
+											"name": "Reaction Bonus",
+											"local_notes": "Business partners"
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Accounting"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Administration"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Economics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Finance"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Gambling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Market Analysis"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Merchant"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Propaganda"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t7qSQN0LVqtBpwHSj",
+									"name": "Talent (Smooth Operator)",
+									"reference": "B90,PU3:15",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "m6OuxOatCim7hTeM_",
+											"name": "Reaction Bonus",
+											"local_notes": "Con artists, politicians, salesmen, etc. – but only if you aren’t trying to manipulate them."
+										},
+										{
+											"id": "mU2dcYQ9T6ZBWw2z4",
+											"name": "Alternate Benefit",
+											"local_notes": "Bonus to resist covered skills",
+											"disabled": true
+										},
+										{
+											"id": "mcw0Qnt0Gf_1EDW_O",
+											"name": "Alternative Cost",
+											"cost_adj": "-2",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 15,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Acting"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Carousing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Detect Lies"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Diplomacy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Fast-Talk"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Intimidation"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Leadership"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Panhandling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Politics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Public Speaking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Savoir-Faire"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Sex Appeal"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Streetwise"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 15,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tiFSAZet7aqbHwxrZ",
+									"name": "Voice",
+									"reference": "B97",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "diplomacy"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fast-talk"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "mimicry"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "performance"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "politics"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "public speaking"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sex appeal"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "singing"
+											},
+											"amount": 2
+										}
+									],
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tW6dfRHuM0ZWWlyBB",
+									"name": "Extra Money",
+									"points_per_level": 1,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 1,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 96
+							}
+						}
+					],
+					"calc": {
+						"points": 116
+					}
+				},
+				{
+					"id": "TQwmWF-lD-32jCb1S",
+					"name": "Class Disadvantage",
+					"children": [
+						{
+							"id": "TaMqoQWbJNJD12IZF",
+							"name": "-30 points chosen from",
+							"children": [
+								{
+									"id": "txZU_BEa0XArJW4NG",
+									"name": "Bully",
+									"reference": "B125",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "t5FxdAJvFjZhNN8KO",
+									"name": "Code of Honor (Professional)",
+									"reference": "B127",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t1-H7dfyieR8sa1Np",
+									"name": "Compulsive Haggling",
+									"reference": "B128",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tqcaQarUa-n75sGbI",
+									"name": "Cowardice",
+									"reference": "B129",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tieGpeodqjGkyu6wc",
+									"name": "Greed",
+									"reference": "B137",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "t2aMIIJHmj2EDW-pX",
+									"name": "Honesty",
+									"reference": "B138",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tMKSVlEMuAerRb88T",
+									"name": "Miserliness",
+									"reference": "B144",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tk_El4Soy0n60ktGU",
+									"name": "Overconfidence",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tx2A7byyvCWxtwEui",
+									"name": "Pacifism: Cannot Harm Innocents",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mbgrHj0ELTQOFgLl6",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tTBcEitt8fFwk9AGh",
+									"name": "Pacifism: Cannot Kill",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mBSBJAP_Xd39u6Ywk",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "t3aPOEfli89_sWWfP",
+									"name": "Pacifism: Reluctant Killer",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mzXAEMqeEaeZLKtKO",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t63H4LOXgkJG7Q5DE",
+									"name": "Pacifism: Self-Defense Only",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mRUahYwweAfoiASlc",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "t_Aubc6IN5I_2DPe7",
+									"name": "Truthfulness",
+									"reference": "B159",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fast talk"
+											},
+											"amount": -5
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tvNXMVCLgPH6UJaWN",
+									"name": "Selfish",
+									"reference": "B153",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t_qFBs0DpBeGx1NtB",
+									"name": "Stubbornness",
+									"reference": "B157",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "thN0KGHSB9VzJ1Lyn",
+									"name": "Workaholic",
+									"reference": "B162",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								}
+							],
+							"calc": {
+								"points": -135
+							}
+						}
+					],
+					"calc": {
+						"points": -135
+					}
+				}
+			],
+			"calc": {
+				"points": 26
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SKy3QmjlJ0BXwd5bw",
+			"name": "Burgher",
+			"reference": "BS210",
+			"children": [
+				{
+					"id": "Sm46cNXpy5YTMQeRG",
+					"name": "Primary Skill",
+					"children": [
+						{
+							"id": "sZ2knewTuiMiplAs2",
+							"name": "Accounting",
+							"reference": "B174",
+							"tags": [
+								"Business"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Statistics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -5
+								}
+							],
+							"points": 4
+						},
+						{
+							"id": "sotlsqKEihiN2Yt_P",
+							"name": "Merchant",
+							"reference": "B209",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							],
+							"points": 8
+						}
+					]
+				},
+				{
+					"id": "SIklBGGldT5PnulDv",
+					"name": "Secondary Skill",
+					"children": [
+						{
+							"id": "sf9vUviTjDibC4Wpu",
+							"name": "Administration",
+							"reference": "B174",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -3
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sgbpLsxXslq1T-5gw",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "@Any@",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sNE47anuO3NKWqrRR",
+							"name": "Detect Lies",
+							"reference": "B187",
+							"tags": [
+								"Police",
+								"Social",
+								"Spy"
+							],
+							"difficulty": "per/h",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Body Language",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "su_orwLXqz8iuV_3E",
+							"name": "Finance",
+							"reference": "B195",
+							"tags": [
+								"Business"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Accounting",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Economics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -6
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "smkJhyMM6WAmWoTGN",
+							"name": "Propaganda",
+							"reference": "B216",
+							"tags": [
+								"Business",
+								"Military",
+								"Social",
+								"Spy"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "SJiZh1MJ6G2FRXUkz",
+					"name": "Background Skill",
+					"children": [
+						{
+							"id": "SrO6X0pkpgeEFDGrg",
+							"name": "8 points chosen from",
+							"children": [
+								{
+									"id": "svu8cNaKhh-iLXS0B",
+									"name": "Acting",
+									"reference": "B174",
+									"tags": [
+										"Social",
+										"Spy"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Performance",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Public Speaking",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sAW4WpnvJDInD0o_8",
+									"name": "Fast-Talk",
+									"reference": "B195",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Spy",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "suZYSF7mjbLEs9Rl3",
+									"name": "Holdout",
+									"reference": "B200",
+									"tags": [
+										"Criminal",
+										"Spy",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Sleight of Hand",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sD82mrG0GVGNhl1SL",
+									"name": "Diplomacy",
+									"reference": "B187",
+									"tags": [
+										"Business",
+										"Police",
+										"Social"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sqHWgSmqAKi7gtIYk",
+									"name": "Politics",
+									"reference": "B215",
+									"tags": [
+										"Business",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Diplomacy",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "styzhqPfTK8R3EnYG",
+									"name": "Streetwise",
+									"reference": "B223",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s33nf9fDXZmzdlIbH",
+									"name": "Gambling",
+									"reference": "B197",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Mathematics",
+											"specialization": "Statistics",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sDzjWqt8J-AyJEHTT",
+									"name": "Diplomacy",
+									"reference": "B187",
+									"tags": [
+										"Business",
+										"Police",
+										"Social"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s_z_lTOM885dQ0Ufp",
+									"name": "Law",
+									"reference": "B204",
+									"tags": [
+										"Business",
+										"Humanities",
+										"Police",
+										"Social Sciences"
+									],
+									"specialization": "@Specialty@",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s20WQcEfrmEFdNStX",
+									"name": "Economics",
+									"reference": "B189",
+									"tags": [
+										"Business",
+										"Humanities",
+										"Social Sciences"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Finance",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Market Analysis",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Merchant",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sL6zywI-KpUkOUzMx",
+									"name": "Carousing",
+									"reference": "B183",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "ht/e",
+									"defaults": [
+										{
+											"type": "ht",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "siWiFPOupuXQ7bNU3",
+									"name": "Public Speaking",
+									"reference": "B216",
+									"tags": [
+										"Business",
+										"Scholarly",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Performance",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "smct1FsLOEgs_xcgm",
+									"name": "Intimidation",
+									"reference": "B202",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "will/a",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "srFCb-yKVR2VsMg28",
+									"name": "Savoir-Faire",
+									"reference": "B218",
+									"tags": [
+										"Business",
+										"Knowledge",
+										"Social"
+									],
+									"specialization": "High Society",
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Savoir-Faire",
+											"specialization": "Servant",
+											"modifier": -2
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "scRHlcKriHLhDL8Ui",
+									"name": "Streetwise",
+									"reference": "B223",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "SUizeJbTMPdo1-jDT",
+									"name": "Or skills relevant to the burgher's specific trade"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nVtiwNkoOyra7HJlt",
+			"markdown": "As cities have become more and more important to the Empire, a new class of citizen has emerged: the burgher or townsman. Burghers -- or their ancestors -- clawed their way up from subsistence peasantry and made new lives for themselves in the towns and cities. Now they are the glue that holds the urban society of the Old World together. Burghers are shop owners, petty merchants, excisemen, traders, and local officials. They are neither as despised as the peasantry nor as exalted as the nobility. While they suffer the most from plague, living in tightly packed urban neighbourhoods as they do, they would not leave the city for a life of hard toil in the countryside. In their minds, towns and cities breed opportunity, not just disease."
+		}
+	]
+}

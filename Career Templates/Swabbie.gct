@@ -1,0 +1,3952 @@
+{
+	"version": 5,
+	"id": "B1FXMU808SN1yIuT4",
+	"traits": [
+		{
+			"id": "TwunyCNHWlKlvoBOd",
+			"name": "Swabbie",
+			"reference": "H36",
+			"children": [
+				{
+					"id": "T2MCGN-zeUsbNs9BR",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "toDx8aU901vgtQMY7",
+							"name": "Increased Strength",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m2r1pyFCF_wWPmbOI",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost_adj": "-40%",
+									"disabled": true
+								},
+								{
+									"id": "mMB9NJUGxHdCdftSB",
+									"name": "Size",
+									"reference": "B15",
+									"cost_adj": "-10%",
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "msW0I3YCgiTfgeX4T",
+									"name": "Super-Effort",
+									"reference": "SU24",
+									"cost_adj": "300%",
+									"disabled": true
+								}
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tUYG0UzPZXpcixEzM",
+							"name": "Increased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "maE7OPUXoMw4RJhBM",
+									"name": "No Fine Manipulators",
+									"cost_adj": "-40%",
+									"disabled": true
+								}
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tF5G0_bmrpztYPLHd",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10,
+								"current_level": 1
+							}
+						}
+					],
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "TynsoYAsgmh4ZvpDf",
+					"name": "Class Advantage",
+					"children": [
+						{
+							"id": "T_rCb-KvYoFo_F69L",
+							"name": "40 points chosen from",
+							"children": [
+								{
+									"id": "tyidgSxs0Sv-4JlQV",
+									"name": "Absolute Direction",
+									"reference": "B34",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mcduB628Pl2prImpG",
+											"name": "Requires signal",
+											"reference": "B34",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mqO416_110uWPYmVO",
+											"name": "3D Spatial Sense",
+											"reference": "B34",
+											"cost_adj": "5",
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "starts_with",
+														"qualifier": "piloting"
+													},
+													"amount": 1
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "aerobatics"
+													},
+													"amount": 2
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "free fall"
+													},
+													"amount": 2
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "navigation"
+													},
+													"specialization": {
+														"compare": "is",
+														"qualifier": "hyperspace"
+													},
+													"amount": 2
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "navigation"
+													},
+													"specialization": {
+														"compare": "is",
+														"qualifier": "space"
+													},
+													"amount": 2
+												}
+											],
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "body sense"
+											},
+											"amount": 3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "air"
+											},
+											"amount": 3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "land"
+											},
+											"amount": 3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "sea"
+											},
+											"amount": 3
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "txyFz5XB5C_a31Rcg",
+									"name": "Acute Hearing",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hearing",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tOa3B6xE2tOgjwYHO",
+									"name": "Acute Vision",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "vision",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tEO7h8SOX3jYI7CcZ",
+									"name": "Common Sense",
+									"reference": "B43,P45",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mmDMvh65R4Y99Ds-Y",
+											"name": "Concious",
+											"reference": "P45",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 10,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tzywJjJbVlA7LdvEB",
+									"name": "Extra Fatigue Points",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 3,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "fp",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 3,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tkQfGdhfzb9xJB0uk",
+									"name": "Fearlessness",
+									"reference": "B55,MA44",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Fearfulness"
+												}
+											}
+										]
+									},
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "fright_check",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t0Wl2JsMw9WEod5E5",
+									"name": "Fit",
+									"reference": "B55",
+									"local_notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison",
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tNuXJJcSi78fQIBZR",
+									"name": "High Manual Dexterity",
+									"reference": "B59",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "artist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "jeweler"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "knot-tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "leatherworking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "lockpicking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "pickpocket"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sewing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sleight of hand"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "surgery"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "machinist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "mechanic"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tfMqviLtCbcNJ_5d4",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tGWOSEE6SmBHACE6Y"
+									},
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mmkJujC3fJUjzS0MX",
+											"name": "No Fine Manipulators",
+											"cost_adj": "-40%",
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tJlcwA-gHdzr7eqh9",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tVt3SvdGWNchJ8z4o"
+									},
+									"name": "Increased Health",
+									"reference": "B14",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "ht",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tNCVqf8jmd4YYKaW6",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t1w1RFcFceKR2T9_e"
+									},
+									"name": "Increased Intelligence",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "iq",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t9Brf6RMW4c7WRSa0",
+									"name": "Increased Perception",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "per",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "terH01Jf9y-ro6fub",
+									"name": "Increased Strength",
+									"reference": "B14",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mfV-EAtOUbZIeUViS",
+											"name": "No Fine Manipulators",
+											"reference": "B15",
+											"cost_adj": "-40%",
+											"disabled": true
+										},
+										{
+											"id": "mRld-YlQ3xDCRlLmW",
+											"name": "Size",
+											"reference": "B15",
+											"cost_adj": "-10%",
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "mhfxdMGnls_ydHwHY",
+											"name": "Super-Effort",
+											"reference": "SU24",
+											"cost_adj": "300%",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "st",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t98h6r7AtenRn8K77",
+									"name": "Increased Will",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "will",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tPjHkg4uJ4Kr1xbty",
+									"name": "Talent (Born Sailor)",
+									"reference": "PU3:13",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Mariner)"
+												}
+											}
+										]
+									},
+									"modifiers": [
+										{
+											"id": "mCHusbCkHaEpNT-7P",
+											"name": "Alternative Cost",
+											"cost_adj": "1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Boating"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Knot-Tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Meteorology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Sea"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Seamanship"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Shiphandling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Weather Sense"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From sailors.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to resist seasickness and reduce unfamiliarity penalties for system on an appropriate boat or ship",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tdZ6KtO7_PC77dmfd",
+									"name": "Talent (Mariner)",
+									"reference": "PU3:13",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Born Sailor)"
+												}
+											}
+										]
+									},
+									"modifiers": [
+										{
+											"id": "m8bOybz6Kzogfh5h3",
+											"name": "Alternative Cost",
+											"cost_adj": "-3",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Boating"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Freight Handling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Knot-Tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Meteorology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Sea"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Seamanship"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Shiphandling"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Weather Sense"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From seafarers.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to resist seasicknes and reduce unfamiliarity penalties for system on an appropriate boat or ship",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "taUU8I2QYx-gdnRYU",
+									"name": "Talent (Seafarer)",
+									"reference": "PU3:14",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Born Sailor)"
+												}
+											},
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Mariner)"
+												}
+											}
+										]
+									},
+									"modifiers": [
+										{
+											"id": "mBI8dzE7xpfQ5mlOR",
+											"name": "Alternative Cost",
+											"cost_adj": "-1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Boating"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Fishing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Knot-Tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Meteorology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Weather Sense"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Navigation"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Seamanship"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Survival"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Swimming"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Thrown Weapon"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From sailors, pirates, and aquatic races sympathetic to sea travel.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to resist seasicknes and reduce unfamiliarity penalties for system on an appropriate boat or ship. Bonus to Carousing and Streetwise in port towns.",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tLzyV2NnAhN76uVle",
+									"name": "Talent (Survivor)",
+									"reference": "PU3:16",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "First Aid"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Knot-Tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Naturalist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Scrounging"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Survival"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From scouts, campers, and survivalists.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Success with Scrounging improvises simple equipment for other skills that removes -1/level from the penalty for being improvised (p. B345).",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t5TojCgQraTEC8Ku2",
+									"name": "Old Salt",
+									"reference": "ACT4:23",
+									"tags": [
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "tND9o5eiqRs3SDMT-",
+									"name": "Resistant",
+									"reference": "B81,P71,MA47",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mD7vkBk4hyyVqF3rW",
+											"name": "@Very Common: Metabolic Hazards, etc.@",
+											"reference": "B80",
+											"cost_adj": "30",
+											"disabled": true
+										},
+										{
+											"id": "m6Lg35d-wXTVUadu5",
+											"name": "@Common: Poison, Sickness, etc.@",
+											"reference": "B81",
+											"cost_adj": "15",
+											"disabled": true
+										},
+										{
+											"id": "magTs2WhMQMMzzd1O",
+											"name": "Disease",
+											"reference": "B81",
+											"cost_adj": "10"
+										},
+										{
+											"id": "m9cYyZXEqL9Sw3voB",
+											"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+											"reference": "B81",
+											"cost_adj": "5",
+											"disabled": true
+										},
+										{
+											"id": "mCmspsLhHeroRGhtz",
+											"name": "Immunity",
+											"reference": "B81",
+											"cost_adj": "x1",
+											"disabled": true
+										},
+										{
+											"id": "mQdceOr9ZCv6WlFi-",
+											"name": "+8 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.5",
+											"disabled": true
+										},
+										{
+											"id": "m1A_9YKaPnQQ6d6nc",
+											"name": "+3 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.33"
+										}
+									],
+									"round_down": true,
+									"calc": {
+										"points": 3
+									}
+								},
+								{
+									"id": "tDgCVmOsveInIYQT6",
+									"name": "Single-Minded",
+									"reference": "B85",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
+											"amount": 3
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "to all rolls to notice interruptions while obsessed with a task",
+											"amount": -5
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tqZBYvGOtiqoYC_X6",
+									"name": "Sure-Footed (Sand)",
+									"reference": "PU2:8",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "txWXBWjeu-YzMHq0V",
+									"name": "Sure-Footed (Water)",
+									"reference": "PU2:8",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "to0YUw7xbsRvXzalv",
+									"name": "Naval Training",
+									"reference": "PU2:6",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 146
+							}
+						}
+					],
+					"calc": {
+						"points": 146
+					}
+				},
+				{
+					"id": "TTkQMi-IIHF9SebTD",
+					"name": "Class Disadvantage",
+					"children": [
+						{
+							"id": "TNmrMm2UqC5vAnNvy",
+							"name": "-30 points chosen from",
+							"children": [
+								{
+									"id": "tyeqb7jXu00M9YK39",
+									"name": "Alcoholism",
+									"reference": "B122",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mhuW3C2G1QVfHQ-da",
+											"name": "Illegal",
+											"reference": "B122",
+											"cost_adj": "-5",
+											"disabled": true
+										}
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tVB29j7vH7eDFFlxi",
+									"name": "Bad Temper",
+									"reference": "B124",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tvzuKyysTDgR5KRd1",
+									"name": "Bully",
+									"reference": "B125",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "t1sS1iwZXuD_LgPuP",
+									"name": "Curious",
+									"reference": "B129",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tJhBQ_KMaWhir6vnW",
+									"name": "Code of Honor (Professional)",
+									"reference": "B127",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tfLBKOne6E1EW8PWX",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tapWLsuN75Unedmwn"
+									},
+									"name": "Compulsive Carousing",
+									"reference": "B128",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from like-minded extroverts",
+											"amount": 1
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "or worse from sober-minded citizens (GM discretion)",
+											"amount": -1
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "txVmXMdX8x8eHNgd1",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tK4QdVZYxGAd4cqr_"
+									},
+									"name": "Compulsive Gambling",
+									"reference": "B128",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tb6it7rg7_WwzIHk0",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tMA9_2yoV8Czd7arj"
+									},
+									"name": "Decreased Will",
+									"reference": "B16",
+									"tags": [
+										"Attribute",
+										"Disadvantage",
+										"Mental"
+									],
+									"points_per_level": -5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "will",
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "trLZNO_-dQZCChqFX",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tLx7cgxRuxXHqkcb5"
+									},
+									"name": "Delusion (Superstitious)",
+									"reference": "B130",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mQZNrnnOlsYERB8km",
+											"name": "Minor",
+											"reference": "B130",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "mFzmBogvZfRzA1eqL",
+											"name": "Major",
+											"reference": "B130",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mFW9bz1-iARZYBgjF",
+											"name": "Severe",
+											"reference": "B130",
+											"cost_adj": "-15",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t2X6otG5QA3eZZ0uD",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t7x0UhMbIv9VWYd8n"
+									},
+									"name": "Hidebound",
+									"reference": "B138",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage",
+											"amount": -2
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tQGvFrR9MsyfseM_d",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tV06LED8bg9xJGF3c"
+									},
+									"name": "Impulsiveness",
+									"reference": "B139",
+									"local_notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tYKypWdh3KOxOhNdH",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t49qcxpm53kg-OdPj"
+									},
+									"name": "Odious Personal Habit",
+									"reference": "B22",
+									"local_notes": "Swears like a sailor",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mrYfeQsqOLzobJ-bT",
+											"name": "-1 Reaction",
+											"reference": "B22",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mvD8z_f3pZhl5DzfJ",
+											"name": "-2 Reaction",
+											"reference": "B22",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mtqJakOPjr6yoqvW3",
+											"name": "-3 Reaction",
+											"reference": "B22",
+											"cost_adj": "-15",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tGR8ikNvYoMl83YEK",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "todj00Fu5MUtTPuJt"
+									},
+									"name": "One Arm",
+									"reference": "B147",
+									"local_notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -20,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "on tasks that are possible with one arm but that are usually executed with two",
+											"amount": -4
+										}
+									],
+									"calc": {
+										"points": -20
+									}
+								},
+								{
+									"id": "tCbwPgCsIH0ggfESD",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t9SDu9sVuWup8J29T"
+									},
+									"name": "One Eye",
+									"reference": "B147",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "No Depth Perception"
+												}
+											}
+										]
+									},
+									"base_points": -15,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to DX in combat and on any task involving hand-eye coordination",
+											"amount": -1
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "on ranged attacks (unless you Aim first) and on rolls to operate any vehicle faster than a horse and buggy",
+											"amount": -3
+										}
+									],
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "t3aW3KFY3g1idXxPU",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tbRf_88KHN922paNz"
+									},
+									"name": "One Hand",
+									"reference": "B147",
+									"local_notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -15,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "on tasks that are possible with one arm but that are usually executed with two",
+											"amount": -4
+										}
+									],
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "trEnnk2mmD1chdbNf",
+									"name": "Greed",
+									"reference": "B137",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tSzn-PvDs6QFK9ICN",
+									"name": "Overconfidence",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tnOADLV6mhbpwQ7mW",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tV_f_75HmwzWOPhuu"
+									},
+									"name": "Pacifism: Reluctant Killer",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mnuvMmNmXh7jxmBOq",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tTy8VvM5HoOcdvnnC",
+									"name": "Post-Combat Shakes",
+									"reference": "B150",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t1BvePIvrNPbgDCMN",
+									"name": "Sense of Duty",
+									"reference": "B153",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "m4vpwRRLMUfOfJW-6",
+											"name": "Friends and Companions",
+											"reference": "B153",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mI1H6UYzYVM2JsRsU",
+											"name": "Comrades",
+											"reference": "B153",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "mtwSsRwcxl24UMbPM",
+											"name": "@Individual@",
+											"reference": "B153",
+											"cost_adj": "-2",
+											"disabled": true
+										},
+										{
+											"id": "mzlkglXLm2toiFO3H",
+											"name": "@Large Group@",
+											"reference": "B153",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mLLZXYEoPhT-SKLwT",
+											"name": "@Entire Race@",
+											"reference": "B153",
+											"cost_adj": "-15",
+											"disabled": true
+										},
+										{
+											"id": "m2G_engXgK3NsPQSt",
+											"name": "Every Living Being",
+											"reference": "B153",
+											"cost_adj": "-20",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t_zjG3edSobcrlxCH",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tw81RysAzky-yjNYN"
+									},
+									"name": "Selfless",
+									"reference": "B153",
+									"local_notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t0GX5H4kBBaL_6mT2",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tCidFlSADk-zraK1o"
+									},
+									"name": "Social Stigma (Minority Group)",
+									"reference": "B155",
+									"local_notes": "You are a member of a minority that the dominant culture around you regards as “barbarians” or “inferior.”",
+									"tags": [
+										"Disadvantage",
+										"Social"
+									],
+									"base_points": -10,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others except your own kind",
+											"amount": -2
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "from others of your own kind in an area, profession, or situation where your minority is especially rare",
+											"amount": 2
+										}
+									],
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "t22yAhQVzjQ3GNGWk",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t4gqkFmqABx7dLjkS"
+									},
+									"name": "Stubbornness",
+									"reference": "B157",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -1
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								}
+							],
+							"calc": {
+								"points": -185
+							}
+						}
+					],
+					"calc": {
+						"points": -185
+					}
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SjPV-SF9TsdTn4OyP",
+			"name": "Swabbie",
+			"reference": "H36",
+			"children": [
+				{
+					"id": "SeaHlWytSULqQJ72U",
+					"name": "Choose a career pack for primary and secondary skills",
+					"children": [
+						{
+							"id": "Slv2QrUT68r0yus1y",
+							"name": "Boatman",
+							"children": [
+								{
+									"id": "SIstUb-ud7oO07Z3v",
+									"name": "Primary Skill",
+									"children": [
+										{
+											"id": "sFipgZXZBrxuGOOKz",
+											"name": "Boating",
+											"reference": "B180",
+											"tags": [
+												"Vehicle"
+											],
+											"specialization": "@Boat class@",
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Motorboat",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Sailboat",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Unpowered",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "stEr55CahSM96T8M1",
+											"name": "Seamanship",
+											"reference": "B185",
+											"tags": [
+												"Vehicle"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "SWyAS3Q_5_StTgifO",
+											"name": "Choose one:",
+											"children": [
+												{
+													"id": "sBOJEICjYlMH2CmvJ",
+													"name": "Climbing",
+													"reference": "B183",
+													"tags": [
+														"Athletic",
+														"Criminal",
+														"Exploration",
+														"Outdoor",
+														"Street"
+													],
+													"difficulty": "dx/a",
+													"encumbrance_penalty_multiplier": 1,
+													"defaults": [
+														{
+															"type": "dx",
+															"modifier": -5
+														}
+													],
+													"points": 4
+												},
+												{
+													"id": "sMnCtVJEB82A8vEJK",
+													"name": "Carpentry",
+													"reference": "B183",
+													"tags": [
+														"Craft"
+													],
+													"difficulty": "iq/e",
+													"defaults": [
+														{
+															"type": "iq",
+															"modifier": -4
+														}
+													],
+													"points": 4
+												},
+												{
+													"id": "scFt7jl-QSSJOJ4F1",
+													"name": "Knot-Tying",
+													"reference": "B203,MA58",
+													"tags": [
+														"Everyman"
+													],
+													"difficulty": "dx/e",
+													"defaults": [
+														{
+															"type": "dx",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Climbing",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Seamanship",
+															"modifier": -4
+														}
+													],
+													"points": 4
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "SH1cMDKrjGRlKpo07",
+									"name": "Secondary Skill",
+									"children": [
+										{
+											"id": "s_ib4ONpQKmda4jqR",
+											"name": "Area Knowledge",
+											"reference": "B176",
+											"tags": [
+												"Everyman",
+												"Knowledge"
+											],
+											"specialization": "Rivers",
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Geography",
+													"specialization": "@Specialty@",
+													"modifier": -3
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s7qSqQ16znb_f1QZF",
+											"name": "Freight Handling",
+											"reference": "B197",
+											"tags": [
+												"Technical",
+												"Vehicle"
+											],
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -5
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										},
+										{
+											"id": "slPPp7K8mfw9POsD3",
+											"name": "Merchant",
+											"reference": "B209",
+											"tags": [
+												"Business",
+												"Social"
+											],
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Finance",
+													"modifier": -6
+												},
+												{
+													"type": "skill",
+													"name": "Market Analysis",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s5U9IomxjXYrB_PlH",
+											"name": "Navigation",
+											"reference": "B211",
+											"tags": [
+												"Exploration",
+												"Outdoor",
+												"Technical",
+												"Vehicle"
+											],
+											"specialization": "Land",
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Cartography",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Mathematics",
+													"specialization": "Surveying",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Navigation",
+													"specialization": "Air",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Navigation",
+													"specialization": "Sea",
+													"modifier": -2
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										},
+										{
+											"id": "svMr7_PpJqE5Ws1XB",
+											"name": "Swimming",
+											"reference": "B224",
+											"tags": [
+												"Athletic",
+												"Exploration",
+												"Outdoor"
+											],
+											"difficulty": "ht/e",
+											"encumbrance_penalty_multiplier": 2,
+											"defaults": [
+												{
+													"type": "ht",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "SwtqD9Z12pVbhu5_h",
+							"name": "Ferryman",
+							"children": [
+								{
+									"id": "SIElVHE6cLn3jIxYY",
+									"name": "Primary Skill",
+									"children": [
+										{
+											"id": "sFg92ojPmJWo-6LAd",
+											"name": "Boating",
+											"reference": "B180",
+											"tags": [
+												"Vehicle"
+											],
+											"specialization": "@Boat class@",
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Motorboat",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Sailboat",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Unpowered",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "sJH4XqAUFoiNOmR2d",
+											"name": "Seamanship",
+											"reference": "B185",
+											"tags": [
+												"Vehicle"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "SbD_mDpRcXdmNbMYv",
+											"name": "Choose one:",
+											"children": [
+												{
+													"id": "sA6zGAhbC3Dz5dry7",
+													"source": {
+														"library": "richardwilkes/gcs_master_library",
+														"path": "Basic Set/Basic Set Skills.skl",
+														"id": "siMUzAucXaiMoAz9z"
+													},
+													"name": "Crossbow",
+													"reference": "B186",
+													"tags": [
+														"Combat",
+														"Ranged Combat",
+														"Weapon"
+													],
+													"difficulty": "dx/e",
+													"defaults": [
+														{
+															"type": "dx",
+															"modifier": -4
+														}
+													],
+													"points": 4
+												},
+												{
+													"id": "sPzUl_48veBUKOzjZ",
+													"source": {
+														"library": "richardwilkes/gcs_master_library",
+														"path": "Basic Set/Basic Set Skills.skl",
+														"id": "sFv-HqFH4QW3yQGAF"
+													},
+													"name": "Guns",
+													"reference": "B198",
+													"tags": [
+														"Combat",
+														"Ranged Combat",
+														"Weapon"
+													],
+													"specialization": "Shotgun",
+													"difficulty": "dx/e",
+													"defaults": [
+														{
+															"type": "dx",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Grenade Launcher",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Gyroc",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Light Anti-Armor Weapon",
+															"modifier": -4
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Light Machine Gun",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Musket",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Pistol",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Rifle",
+															"modifier": -2
+														},
+														{
+															"type": "skill",
+															"name": "Guns",
+															"specialization": "Submachine Gun",
+															"modifier": -2
+														}
+													],
+													"tech_level": "",
+													"points": 4
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "S-aQhFjktOb08SO_4",
+									"name": "Secondary Skill",
+									"children": [
+										{
+											"id": "s171C_9Iq0vVJFNMn",
+											"name": "Knot-Tying",
+											"reference": "B203,MA58",
+											"tags": [
+												"Everyman"
+											],
+											"difficulty": "dx/e",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Climbing",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "shLkETr85XfkhOxHF",
+											"name": "Carpentry",
+											"reference": "B183",
+											"tags": [
+												"Craft"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "sr2KcbyHlWcTZzdj7",
+											"name": "Swimming",
+											"reference": "B224",
+											"tags": [
+												"Athletic",
+												"Exploration",
+												"Outdoor"
+											],
+											"difficulty": "ht/e",
+											"encumbrance_penalty_multiplier": 2,
+											"defaults": [
+												{
+													"type": "ht",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s8XvcPvVBAt6EXXQ1",
+											"name": "Freight Handling",
+											"reference": "B197",
+											"tags": [
+												"Technical",
+												"Vehicle"
+											],
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -5
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										},
+										{
+											"id": "SxPZ2USx0GgEM-2Ph",
+											"name": "Choose any Influence skill, Merchant, or Carousing at 2 points"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "SFdk-KUbrpLOpIOHq",
+							"name": "Fisherman",
+							"children": [
+								{
+									"id": "Sv0G00zf1HPIVfG3b",
+									"name": "Primary Skill",
+									"children": [
+										{
+											"id": "sXA4W-mCSCsXjPtRa",
+											"name": "Boating",
+											"reference": "B180",
+											"tags": [
+												"Vehicle"
+											],
+											"specialization": "@Boat class@",
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Motorboat",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Sailboat",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Unpowered",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "sIV72F9ANumm2UJTP",
+											"name": "Seamanship",
+											"reference": "B185",
+											"tags": [
+												"Vehicle"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "sVE_V1-Zi0uO7LBPn",
+											"name": "Fishing",
+											"reference": "B195",
+											"tags": [
+												"Exploration",
+												"Outdoor"
+											],
+											"difficulty": "per/e",
+											"defaults": [
+												{
+													"type": "per",
+													"modifier": -4
+												}
+											],
+											"points": 4
+										}
+									]
+								},
+								{
+									"id": "SpaBuJkkpL07yQIYJ",
+									"name": "Secondary Skill",
+									"children": [
+										{
+											"id": "s9lyWcKeNCHnuZBFh",
+											"name": "Net",
+											"reference": "B211",
+											"tags": [
+												"Combat",
+												"Ranged Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/h",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Cloak",
+													"modifier": -5
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "sFV-5g-3Bpygv9Zcf",
+											"name": "Spear",
+											"reference": "B208",
+											"tags": [
+												"Combat",
+												"Melee Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Polearm",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Staff",
+													"modifier": -2
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "sjOidCFhKdOfJxTPX",
+											"name": "Sewing",
+											"reference": "B219",
+											"tags": [
+												"Craft",
+												"Everyman"
+											],
+											"difficulty": "dx/e",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										},
+										{
+											"id": "sCB9mHAnE4Xfzq01l",
+											"name": "Knot-Tying",
+											"reference": "B203,MA58",
+											"tags": [
+												"Everyman"
+											],
+											"difficulty": "dx/e",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Climbing",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s6Vzyamtw784T_OsU",
+											"name": "Naturalist",
+											"reference": "B211",
+											"tags": [
+												"Animal",
+												"Exploration",
+												"Natural Science",
+												"Outdoor",
+												"Plant"
+											],
+											"specialization": "Earthlike",
+											"difficulty": "iq/h",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -6
+												},
+												{
+													"type": "skill",
+													"name": "Biology",
+													"modifier": -3
+												}
+											],
+											"points": 2
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Shx7JTSwNUZl-puJF",
+							"name": "Marine",
+							"children": [
+								{
+									"id": "SiPSW602EdcbCHYdm",
+									"name": "Primary Skill",
+									"children": [
+										{
+											"id": "sC4x5ntORQ9P42w3J",
+											"name": "Seamanship",
+											"reference": "B185",
+											"tags": [
+												"Vehicle"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "szn4xFnbVHf4v35rS",
+											"name": "Soldier",
+											"reference": "B221",
+											"tags": [
+												"Military"
+											],
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -5
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "S2c2J4s7AN5UAPHM0",
+											"name": "Choose a combat skill at 4 points"
+										}
+									]
+								},
+								{
+									"id": "SaNbTJk3VjKWI5JLV",
+									"name": "Secondary Skill",
+									"children": [
+										{
+											"id": "sdBOaNHdmllfKaYzZ",
+											"name": "Climbing",
+											"reference": "B183",
+											"tags": [
+												"Athletic",
+												"Criminal",
+												"Exploration",
+												"Outdoor",
+												"Street"
+											],
+											"difficulty": "dx/a",
+											"encumbrance_penalty_multiplier": 1,
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "sRLAzS44uZIOJggw0",
+											"name": "Swimming",
+											"reference": "B224",
+											"tags": [
+												"Athletic",
+												"Exploration",
+												"Outdoor"
+											],
+											"difficulty": "ht/e",
+											"encumbrance_penalty_multiplier": 2,
+											"defaults": [
+												{
+													"type": "ht",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "sTf4nIDBXbWnrKWNR",
+											"name": "Tactics",
+											"reference": "B224,MA60",
+											"tags": [
+												"Military",
+												"Police"
+											],
+											"difficulty": "iq/h",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -6
+												},
+												{
+													"type": "skill",
+													"name": "Strategy",
+													"modifier": -6
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s9BHre29_gVVmqU7E",
+											"name": "Jumping",
+											"reference": "B203,MA57",
+											"tags": [
+												"Athletic"
+											],
+											"difficulty": "dx/e",
+											"points": 2
+										},
+										{
+											"id": "ssTAK3v8i4MqSffSv",
+											"name": "Boating",
+											"reference": "B180",
+											"tags": [
+												"Vehicle"
+											],
+											"specialization": "@Boat class@",
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Motorboat",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Sailboat",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Unpowered",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "SinpPRRsjGs12al8V",
+							"name": "Seaman",
+							"children": [
+								{
+									"id": "SxjCXO8qW9yfRLFfH",
+									"name": "Primary Skill",
+									"children": [
+										{
+											"id": "sp4wpiWC9g4ICsPwl",
+											"name": "Boating",
+											"reference": "B180",
+											"tags": [
+												"Vehicle"
+											],
+											"specialization": "@Boat class@",
+											"difficulty": "dx/a",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Motorboat",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Sailboat",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Boating",
+													"specialization": "Unpowered",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "sf0uYfOGLVo4MXj8G",
+											"name": "Seamanship",
+											"reference": "B185",
+											"tags": [
+												"Vehicle"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"tech_level": "",
+											"points": 4
+										},
+										{
+											"id": "SKh1AoRVSX1lxeLlo",
+											"name": "Choose any combat skill at 4 points"
+										}
+									]
+								},
+								{
+									"id": "S59v-EGrmip8FeWYO",
+									"name": "Secondary Skill",
+									"children": [
+										{
+											"id": "sHfcm-NOZ86l47LQs",
+											"name": "Climbing",
+											"reference": "B183",
+											"tags": [
+												"Athletic",
+												"Criminal",
+												"Exploration",
+												"Outdoor",
+												"Street"
+											],
+											"difficulty": "dx/a",
+											"encumbrance_penalty_multiplier": 1,
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s8yiKAm88ojR7Iw7x",
+											"name": "Knot-Tying",
+											"reference": "B203,MA58",
+											"tags": [
+												"Everyman"
+											],
+											"difficulty": "dx/e",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Climbing",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s_LugMDuYxkvJ66PO",
+											"name": "Naturalist",
+											"reference": "B211",
+											"tags": [
+												"Animal",
+												"Exploration",
+												"Natural Science",
+												"Outdoor",
+												"Plant"
+											],
+											"specialization": "Earthlike",
+											"difficulty": "iq/h",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -6
+												},
+												{
+													"type": "skill",
+													"name": "Biology",
+													"modifier": -3
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s-OYrPnJvojnDHog0",
+											"name": "Carpentry",
+											"reference": "B183",
+											"tags": [
+												"Craft"
+											],
+											"difficulty": "iq/e",
+											"defaults": [
+												{
+													"type": "iq",
+													"modifier": -4
+												}
+											],
+											"points": 2
+										},
+										{
+											"id": "s-scDMjSE9H_y6psE",
+											"name": "Navigation",
+											"reference": "B211",
+											"tags": [
+												"Exploration",
+												"Outdoor",
+												"Technical",
+												"Vehicle"
+											],
+											"specialization": "Sea",
+											"difficulty": "iq/a",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Astronomy",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Seamanship",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Navigation",
+													"specialization": "Air",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Navigation",
+													"specialization": "Land",
+													"modifier": -2
+												}
+											],
+											"tech_level": "",
+											"points": 2
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "SPz7dKQzAWNWEzQ3j",
+					"name": "Background Skill",
+					"children": [
+						{
+							"id": "SsnlaAhZg0z56iMQW",
+							"name": "13 points total in",
+							"children": [
+								{
+									"id": "sHHnPNaEX2rPzJ32z",
+									"name": "Area Knowledge",
+									"reference": "B176",
+									"tags": [
+										"Everyman",
+										"Knowledge"
+									],
+									"specialization": "@Any@",
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Geography",
+											"specialization": "@Specialty@",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sfW_NzmF2DqchSaWD",
+									"name": "Carousing",
+									"reference": "B183",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "ht/e",
+									"defaults": [
+										{
+											"type": "ht",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s4E2qHmhAOGDN--wv",
+									"name": "Carpentry",
+									"reference": "B183",
+									"tags": [
+										"Craft"
+									],
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "seNZfxVVTsZRhWJmK",
+									"name": "Climbing",
+									"reference": "B183",
+									"tags": [
+										"Athletic",
+										"Criminal",
+										"Exploration",
+										"Outdoor",
+										"Street"
+									],
+									"difficulty": "dx/a",
+									"encumbrance_penalty_multiplier": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s6tCzHX4LHpCgSEva",
+									"name": "Connoisseur",
+									"reference": "B185,MA56",
+									"tags": [
+										"Arts",
+										"Entertainment",
+										"Knowledge",
+										"Social"
+									],
+									"specialization": "@Subject@",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s3EA3g29zHmRduLV7",
+									"name": "Cooking",
+									"reference": "B185",
+									"tags": [
+										"Everyman"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Housekeeping",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s205UHMOpM3mwkbGo",
+									"name": "Detect Lies",
+									"reference": "B187",
+									"tags": [
+										"Police",
+										"Social",
+										"Spy"
+									],
+									"difficulty": "per/h",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Body Language",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Psychology",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sDhiry3TbPrKw192C",
+									"name": "Diplomacy",
+									"reference": "B187",
+									"tags": [
+										"Business",
+										"Police",
+										"Social"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sjytpM-LdSNEyBAVH",
+									"name": "Escape",
+									"reference": "B192",
+									"tags": [
+										"Criminal",
+										"Street"
+									],
+									"difficulty": "dx/h",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sfG8GegDuViyv8CEX",
+									"name": "Fast-Draw",
+									"reference": "B194",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "@any@",
+									"difficulty": "dx/e",
+									"points": 1
+								},
+								{
+									"id": "swW0bbelci7SrcdDI",
+									"name": "Fast-Talk",
+									"reference": "B195",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Spy",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sHGqlAkd90T5Cv7oM",
+									"name": "First Aid",
+									"reference": "B195",
+									"tags": [
+										"Everyman",
+										"Medical"
+									],
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Esoteric Medicine"
+										},
+										{
+											"type": "skill",
+											"name": "Physician"
+										},
+										{
+											"type": "skill",
+											"name": "Veterinary",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sUuspyxybbrApMAK2",
+									"name": "Fishing",
+									"reference": "B195",
+									"tags": [
+										"Exploration",
+										"Outdoor"
+									],
+									"difficulty": "per/e",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sKdiyEjeuymkR09Ji",
+									"name": "Freight Handling",
+									"reference": "B197",
+									"tags": [
+										"Technical",
+										"Vehicle"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sTI9Q0HEiWpgDdCyT",
+									"name": "Gambling",
+									"reference": "B197",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Mathematics",
+											"specialization": "Statistics",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sDEd8ezBpKAPzRaQw",
+									"name": "Gesture",
+									"reference": "B198",
+									"tags": [
+										"Social"
+									],
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sFR8a3oipbN4NRnfb",
+									"name": "Hobby Skill",
+									"reference": "B200,MA57",
+									"tags": [
+										"Knowledge"
+									],
+									"specialization": "@Mental Hobby@",
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sP2hOtVwisutuyyQ-",
+									"name": "Hobby Skill",
+									"reference": "B200,MA57",
+									"tags": [
+										"Knowledge"
+									],
+									"specialization": "@Physical Hobby@",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s0zXfWeWHUJTo7D7c",
+									"name": "Jumping",
+									"reference": "B203,MA57",
+									"tags": [
+										"Athletic"
+									],
+									"difficulty": "dx/e",
+									"points": 1
+								},
+								{
+									"id": "sQX7a4RLE0Dmz_8ZN",
+									"name": "Merchant",
+									"reference": "B209",
+									"tags": [
+										"Business",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Finance",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Market Analysis",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s5EUvOSBDOamg30N-",
+									"name": "Naturalist",
+									"reference": "B211",
+									"tags": [
+										"Animal",
+										"Exploration",
+										"Natural Science",
+										"Outdoor",
+										"Plant"
+									],
+									"specialization": "Earthlike",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Biology",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s-5ubzDjMRBrLKByT",
+									"name": "Packing",
+									"reference": "B212",
+									"tags": [
+										"Animal"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Animal Handling",
+											"specialization": "Equines",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sLdYL1tCmG62hu56b",
+									"name": "Professional Skill",
+									"reference": "B215",
+									"tags": [
+										"Knowledge"
+									],
+									"specialization": "Spinning",
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sQoWXo5FLf1POLLrI",
+									"name": "Professional Skill",
+									"reference": "B215",
+									"tags": [
+										"Knowledge"
+									],
+									"specialization": "Weaving",
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s3ZZyIRi10ShJLPhD",
+									"name": "Savoir-Faire",
+									"reference": "B218,MA59",
+									"tags": [
+										"Everyman",
+										"Knowledge",
+										"Social"
+									],
+									"specialization": "Servant",
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Savoir-Faire",
+											"specialization": "High Society",
+											"modifier": -2
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sCjjpbU_NdxC3CLqB",
+									"name": "Scrounging",
+									"reference": "B218",
+									"tags": [
+										"Criminal",
+										"Street"
+									],
+									"difficulty": "per/e",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s7SBjYRV612Cegf80",
+									"name": "Sewing",
+									"reference": "B219",
+									"tags": [
+										"Craft",
+										"Everyman"
+									],
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "stxw4e0pD38rPJMvh",
+									"name": "Smuggling",
+									"reference": "B221",
+									"tags": [
+										"Criminal",
+										"Spy",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "soEH0iHurvnKccjJ4",
+									"name": "Streetwise",
+									"reference": "B223",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sq0gThFUD9nC_jnLf",
+									"name": "Survival",
+									"reference": "B223",
+									"tags": [
+										"Exploration",
+										"Outdoor"
+									],
+									"specialization": "Island/Beach",
+									"difficulty": "per/a",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Naturalist",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Tropical Lagoon",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Arctic",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Desert",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Jungle",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Mountain",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Plains",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Swampland",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Survival",
+											"specialization": "Woodlands",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sbKccXQiXk6Rso69e",
+									"name": "Swimming",
+									"reference": "B224",
+									"tags": [
+										"Athletic",
+										"Exploration",
+										"Outdoor"
+									],
+									"difficulty": "ht/e",
+									"encumbrance_penalty_multiplier": 2,
+									"defaults": [
+										{
+											"type": "ht",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sypJq4r_tqBUGLZoY",
+									"name": "Boating",
+									"reference": "B180",
+									"tags": [
+										"Vehicle"
+									],
+									"specialization": "@Boat class@",
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Motorboat",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Sailboat",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Unpowered",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Seamanship",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sKRmCaPbn6aJuJjgf",
+									"name": "OR Further Primary or Secondary Skills",
+									"difficulty": "dx/a"
+								},
+								{
+									"id": "SKXKRYSp1zU3PE2y5",
+									"name": "Or any combat skills"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nYtAgVuNnJWyeOaZs"
+		},
+		{
+			"id": "NcbcdUFJcZrwDivnY",
+			"markdown": "Boatman",
+			"children": [
+				{
+					"id": "nMTdC0labmmYufSje",
+					"markdown": "The rivers of the Empire are vital arteries of communication and commerce. They provide speedy transportation and link most of the major cities of the realm. Boatmen ply these busy waterways, taking passengers and goods throughout the Empire and even into Kislev. Although the rivers are safer than the dark forest roads, they are not without danger. Many routes pass through wild country untouched by civilisation. Boatmen must be ready to protect their cargoes and fares from raiders and bandits. Experienced boatmen are tough and resourceful, equally adept at boat handling, navigation, and combat."
+				}
+			]
+		},
+		{
+			"id": "N4zzxoNUAFg6Y-HtV",
+			"markdown": "Ferryman",
+			"children": [
+				{
+					"id": "nlh7aNwXRjalDljPO",
+					"markdown": "Rivers both large and small cut through the Empire. While a few are shallow enough to ford easily, most require transport to cross safely. Ferrymen make their living moving people and goods across the Empire's rivers, for a fee of course. They favour flat-bottomed barges because they have a shallow draft and plenty of deck space. Ferrymen in more remote areas also favour the blunderbuss. Bandits are a constant danger and the blunderbuss provides not-so-subtle encouragement to move along. Many ferrymen are also extortionists of the highest order, arbitrarily changing their prices based on the apparent wealth and desperateness of their passengers."
+				}
+			]
+		},
+		{
+			"id": "NWGrJQfTSycXkaVYg",
+			"markdown": "Fisherman",
+			"children": [
+				{
+					"id": "nuxoLhgqNXoZ3TkP6",
+					"markdown": "Fishermen seek the bounty of the sea. The many villages on Nordland's coastline are home to countless fishermen. These hearty souls brave the Sea of Claws in small craft, despite the constant threat of pirates and raiders from Norsca. There are also some fishing communities inland, by lakes and rivers, though these villages also pursue agriculture. Fishermen are an independent lot as a matter of course. They work in small crews, and when on the water every decision is their own. This spirited nature is one reason why dockside taverns are always unruly."
+				}
+			]
+		},
+		{
+			"id": "NgdDaf3-Z47mxM59Q",
+			"markdown": "Marine",
+			"children": [
+				{
+					"id": "n9xKXhZc_Tv3bDrsn",
+					"markdown": "Marines are ship-borne soldiers who can be found in the Imperial fleet and onboard the larger private merchant vessels. They protect their ships from pirates, Norscan marauders, and other raiders. Unlike seamen, whose primary duty is sailing the ship, marines are onboard only to fight. When in port, marines frequently form press gangs to fill out the ship's crew. More than one unsuspecting citizen has awoken at sea after taking a belaying pin to the head from an overzealous press ganger. Due to these activities, and their own drunken brawling, marines are resented in many seaside communities. When raiders attack, however, these same citizens are quick to accept the aid of battle-hardened marines."
+				}
+			]
+		},
+		{
+			"id": "NYfjnHnKliFKui2nt",
+			"markdown": "Seaman",
+			"children": [
+				{
+					"id": "nH1GqAyQ8_bl0hyNY",
+					"markdown": "Most Imperial seamen come from the province of Nordland, which has a long stretch of coast on the Sea of Claws. However, many also come from the Reikland. Although it has no coastline, it borders a significant stretch of the River Reik navigable to sea-going vessels. The Nordlander seamen of the Second Fleet crew Greatships, Wolfships, and Wargalleys and patrol the perilous Sea of Claws, protecting the Empire from Norse longships, Bretonnian buccaneers, and the dreaded fleets of Chaos. Hardened seamen one and all, their civilian compatriots sail merchantmen, pirate vessels, and other privately owned craft. The activity of the region revolves around Marienburg, the greatest port of the Old World, it gained its independence from the Empire years ago. Although Marienburg itself is neutral territory, the Sea of Claws is the site of daily clashes. On blood-soaked decks, Seamen earn their rum ration and their booty."
+				}
+			]
+		}
+	]
+}

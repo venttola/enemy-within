@@ -1,0 +1,2699 @@
+{
+	"version": 5,
+	"id": "BlTpWkhTs79zY-u6n",
+	"traits": [
+		{
+			"id": "T_J8gd4PE269ymEfe",
+			"name": "Apprentice Wizard",
+			"reference": "BS207",
+			"children": [
+				{
+					"id": "T8UAsF8wpzGHw2eWz",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "tb9iePxEaOQfX__cx",
+							"name": "Decreased Strength",
+							"reference": "B14",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -10,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tPagAX0DvT9KuQf4N",
+							"name": "Increased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 60,
+								"current_level": 3
+							}
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "TeKe6VcU_xLStBbwT",
+					"name": "Class Advantage",
+					"children": [
+						{
+							"id": "trDHnJijm8p7a6NQu",
+							"name": "Magery",
+							"reference": "B66",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "mIWyEC4M-1eKkbm7e",
+									"name": "Dance",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "ml1hlAuue9cSzcNNu",
+									"name": "Dark-Aspected",
+									"cost_adj": "-50%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "mMLMX1o6fm5uau_AO",
+									"name": "Day-Aspected",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "m3KaUIgeE4S2jtXcU",
+									"name": "Musical",
+									"cost_adj": "-50%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "mZv4Sez6XTLnERjFx",
+									"name": "Night-Aspected",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "m2ahNkq44BQtNoSVF",
+									"name": "One College",
+									"local_notes": "@College@",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "my_oemgX88_ahVa9c",
+									"name": "Solitary",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "m7ZMgsQKfXxqWy4bH",
+									"name": "Song",
+									"cost_adj": "-40%",
+									"affects": "levels_only",
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "spell_bonus",
+									"match": "all_colleges",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "thaumatology"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 25,
+								"current_level": 2
+							}
+						},
+						{
+							"id": "TubfzPRBM-fj2c7v8",
+							"name": "AND 10 points chosen from",
+							"children": [
+								{
+									"id": "tkn6p5rq-p7wLo2ji",
+									"name": "Acute Hearing",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hearing",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tD4NKnpiYvhg5YW59",
+									"name": "Acute Taste \u0026 Smell",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "taste_smell",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t1BBVoQfv3yRr8-Wv",
+									"name": "Acute Touch",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "touch",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tuv6tZz9dwoSaCjZt",
+									"name": "Acute Vision",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "vision",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tQ7LRAx-sGbJ-ytDB",
+									"name": "Eidetic Memory",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mGK7HOWR7DcRmcM-1",
+											"name": "Photographic",
+											"reference": "B51",
+											"cost_adj": "5",
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "td29BYg_XPPT0_wLT",
+									"name": "Eidetic Memory",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mE4TUcEZCc246K4Bw",
+											"name": "Photographic",
+											"reference": "B51",
+											"cost_adj": "5"
+										}
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tytRwBuwKNXez9Z-8",
+									"name": "Empathy (Sensitive)",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mILAXmE6q1Iw830HG",
+											"name": "Remote",
+											"reference": "P48",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "detect lies"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fortune-telling"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "psychology"
+											},
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tlipMfOHM4aPqZwVr",
+									"name": "High Manual Dexterity",
+									"reference": "B59",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "artist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "jeweler"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "knot-tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "leatherworking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "lockpicking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "pickpocket"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sewing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sleight of hand"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "surgery"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "machinist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "mechanic"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tTsoT71bWOHEGama5",
+									"name": "Lightning Calculator",
+									"reference": "B66",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mcVeR0RxowVGjqCb2",
+											"name": "Intuitive Mathematician",
+											"reference": "B66",
+											"cost_adj": "3",
+											"disabled": true
+										}
+									],
+									"base_points": 2,
+									"calc": {
+										"points": 2
+									}
+								},
+								{
+									"id": "tBgpFinYvn-H1rGiK",
+									"name": "Lightning Calculator",
+									"reference": "B66",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "m4KaBmZF4O5uuMQSM",
+											"name": "Intuitive Mathematician",
+											"reference": "B66",
+											"cost_adj": "3"
+										}
+									],
+									"base_points": 2,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tc3Vv2ZV1e_CuTK6y",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tUzmcuTXRq35xQ-rB"
+									},
+									"name": "Single-Minded",
+									"reference": "B85",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
+											"amount": 3
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "to all rolls to notice interruptions while obsessed with a task",
+											"amount": -5
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tsyIWF-MYIvN5cyhb",
+									"name": "Talent (Academic)",
+									"reference": "PU3:6",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Public Speaking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Research"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Speed-Reading"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Teaching"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Writing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From students and teachers.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to any roll that benefits from Eidetic Memory",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tlkKvHFvXfJOfSxpm",
+									"name": "Talent (Antiquary)",
+									"reference": "PU3:6",
+									"tags": [
+										"Advantage",
+										"Physical",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "mYCpA62X_OIUY9VlT",
+											"name": "Alternative Cost",
+											"cost_adj": "1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Architecture"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Connoisseur"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Heraldry"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "History"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Literature"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Research"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From devotees of the old and beautiful.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Less-severe penalties from Time (p. B176) when dealing with old stuff, and/or from Tech-Level Modifiers (p. B168) when dealing with sciences of a lower TL.",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tfyp72zD4Ra3Ot_jo",
+									"name": "Talent (Healer)",
+									"reference": "PU3:11",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Healer)"
+												},
+												"level": {
+													"compare": "at_least",
+													"qualifier": 1
+												},
+												"notes": {
+													"compare": "contains",
+													"qualifier": "Modern"
+												}
+											}
+										]
+									},
+									"modifiers": [
+										{
+											"id": "mS1CzaZzIHGA3X_Wn",
+											"name": "Alternative Cost",
+											"cost_adj": "-1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Diagnosis"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Esoteric Medicine"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "First Aid"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Pharmacy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Physician"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Physiology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Psychology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Surgery"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Veterinary"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From patients.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to HT rolls for a specific patient and condition if treated full time.",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tJTl2DlTC9K9t2fO7",
+									"name": "Talent (Occultist)",
+									"reference": "PU3:14",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "maMLin4J0Y8F7aMHR",
+											"name": "Reaction Bonus",
+											"local_notes": "Students of the arcane, gullible college students, monster-hunters."
+										},
+										{
+											"id": "m1RraeEBgiCducE1j",
+											"name": "Alternative Benefit",
+											"local_notes": "+1/level to Fright Checks caused by supernatural beings and effects, and by reading sanity-destroying tomes (because you know what to expect).",
+											"cost_adj": "2",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Alchemy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Anthropology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Archaeology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Exorcism"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Hidden Lore"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "History"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Linguistics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Literature"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Occultism"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Research"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Ritual Magic"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Thaumatology"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tMrIrWUwzPhhvcmhv",
+									"name": "Talent (Sage)",
+									"reference": "PU3:15",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "mYd5DP7aT68Vk58R4",
+											"name": "Reaction Bonus",
+											"local_notes": "Scholars, students, and people who consult you"
+										},
+										{
+											"id": "mgvLKWi3vvnsOFnoA",
+											"name": "Alternate Benefit",
+											"local_notes": "Bonus to IQ defaults to non-covered skills for general knowledge only",
+											"disabled": true
+										},
+										{
+											"id": "mxdFMRNlji_d_GzSt",
+											"name": "Alternative Cost",
+											"cost_adj": "2",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Archaeology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Expert Skill"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Geography"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Heraldry"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Hidden Lore"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "History"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Law"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Literature"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Occultism"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Philosophy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Research"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Theology"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tWZS8IJP8Aa9kZd4q",
+									"name": "Talent (Natural Philospopher)",
+									"reference": "B89",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "mZKv9-P-QlLUHxr-h",
+											"name": "Alternate Benefit",
+											"local_notes": "@Alternate Benefit@",
+											"disabled": true
+										},
+										{
+											"id": "m2HiVLBxihSwW1Y7g",
+											"name": "Alternative Cost",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Astronomy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Chemistry"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Expert Skill"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Hydrology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Expert Skill"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Natural Philosophy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Mathematics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Metallurgy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Naturalist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Pharmacy"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Herbal"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Philosophy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Physiology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Theology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Weather Sense"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "Other Natural Philosophers and anybody impressed by “smart people.”",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t3X9y6UJt7VVxxrkC",
+									"name": "Versatile",
+									"reference": "B96",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tcQ9Yz6CqpmR8Zi2Y",
+									"name": "Increased Will",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "will",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 105
+							}
+						}
+					],
+					"calc": {
+						"points": 130
+					}
+				},
+				{
+					"id": "TLwhUPVNX_4g4qyKW",
+					"name": "Class Disadvantage",
+					"children": [
+						{
+							"id": "TdB8knIChJA77LN5r",
+							"name": "-30 points chosen from",
+							"children": [
+								{
+									"id": "tJRGiLjbVIf5IlhUz",
+									"name": "Addiction (Tobacco)",
+									"reference": "B122",
+									"tags": [
+										"Disadvantage",
+										"Mental",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mjpjGvGXzzkaA7Sdr",
+											"name": "Cost: Cheap",
+											"reference": "B122",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "meHSfQ5W88Q5KML3P",
+											"name": "Cost: Expensive",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mhK8Y2-WFDzcSjomX",
+											"name": "Cost: Very Expensive",
+											"reference": "B122",
+											"cost_adj": "-20",
+											"disabled": true
+										},
+										{
+											"id": "m5zJFxC-4Oxy_oJfX",
+											"name": "Effects: Hallucinogenic",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mOecFn8Ck0gYI8aNo",
+											"name": "Effects: Highly Addictive (-5 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "m7NtYeLztWXQNl6Mm",
+											"name": "Effects: Incapacitating",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mbfvqyOCzGBN1ZMdu",
+											"name": "Effects: Totally Addictive (-10 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mGs8ri3F-8TapBZkE",
+											"name": "Illegal",
+											"reference": "B122",
+											"disabled": true
+										},
+										{
+											"id": "meSonOLtdil4bth1u",
+											"name": "Legal",
+											"reference": "B122",
+											"cost_adj": "5"
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "thxqhlspRyf8JjVbm",
+									"name": "Bad Sight (Nearsighted)",
+									"reference": "B123",
+									"local_notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mqrFy1TE0h1v9gWfl",
+											"name": "Mitigator",
+											"local_notes": "Glasses",
+											"cost_adj": "-60%",
+											"disabled": true
+										}
+									],
+									"base_points": -25,
+									"calc": {
+										"points": -25
+									}
+								},
+								{
+									"id": "tB9hM2U7Rc6TNnS-N",
+									"name": "Bad Temper",
+									"reference": "B124",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tKdBXiSJs5cw2moDo",
+									"name": "Combat Paralysis",
+									"reference": "B127",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tq7lXSYqk90lsD9X3",
+									"name": "Clueless",
+									"reference": "B126",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "savoir-faire"
+											},
+											"amount": -4
+										}
+									],
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tAXt-4_FQbUlfLG__",
+									"name": "Curious",
+									"reference": "B129",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tX9SoGP0NwgcbdXwr",
+									"name": "Fearfulness",
+									"reference": "B136",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "fearlessness"
+												}
+											}
+										]
+									},
+									"points_per_level": -2,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tXbL3s-8xA2B4aRJX",
+									"name": "Jealousy",
+									"reference": "B140",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tqDNY8LwpRsuFXt0O",
+									"name": "Laziness",
+									"reference": "B142",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tNj7UxjcG46_rDVDE",
+									"name": "Magic Susceptibility",
+									"reference": "B143",
+									"tags": [
+										"Disadvantage",
+										"Mental",
+										"Supernatural"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "magic resistance"
+												}
+											}
+										]
+									},
+									"points_per_level": -3,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -3,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tlQP51oao3dnaKsSA",
+									"name": "Megalomania",
+									"reference": "B144",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "t68psvCokCuhqV17X",
+									"name": "Obsession",
+									"reference": "B146",
+									"local_notes": "Acquiring magical power",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "m1sOkJlIcw-UAtvex",
+											"name": "Short term",
+											"reference": "B146",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mKHerDRnh1Rtdzl8G",
+											"name": "Long term",
+											"reference": "B146",
+											"cost_adj": "-10"
+										}
+									],
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tshkiuoq4gQBPQkdY",
+									"name": "Obsession",
+									"reference": "B146",
+									"local_notes": "Acquiring magical power",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mn45Kkq0Phbb1OrF7",
+											"name": "Short term",
+											"reference": "B146",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "mrJUu3PPOGbYHir7d",
+											"name": "Long term",
+											"reference": "B146",
+											"cost_adj": "-10",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tmaPam5AxY8IZtjUN",
+									"name": "Overconfidence",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t38UBbBecgwWa3PQn",
+									"name": "Overweight",
+									"reference": "B19",
+									"local_notes": "+1 ST vs. knockback",
+									"tags": [
+										"Physical",
+										"Quirk"
+									],
+									"base_points": -1,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "disguise"
+											},
+											"amount": -1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "shadowing"
+											},
+											"amount": -1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "swimming"
+											},
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": -1
+									}
+								},
+								{
+									"id": "tpUrXOvU0_zfJ60fh",
+									"name": "Selfish",
+									"reference": "B153",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tHqGu3FD-hvvaIxLx",
+									"name": "Unfit",
+									"reference": "B160",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t0fJmyrhk6uWh6Mq4",
+									"name": "Vow (Never use black magic)",
+									"reference": "B161",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mMYnq0xs1aweTU2mh",
+											"name": "Minor",
+											"reference": "B161",
+											"cost_adj": "-5"
+										},
+										{
+											"id": "mntkfHv3u-gbNA-5S",
+											"name": "Major",
+											"reference": "B161",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mUF4jqfcNHdGMd3Zi",
+											"name": "Great",
+											"reference": "B161",
+											"cost_adj": "-15",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								}
+							],
+							"calc": {
+								"points": -141
+							}
+						}
+					],
+					"calc": {
+						"points": -141
+					}
+				}
+			],
+			"calc": {
+				"points": 39
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SMacNdc12mTV5ScZg",
+			"name": "Apprentice Wizard",
+			"reference": "BS207",
+			"children": [
+				{
+					"id": "ScNwNn7LO65RH0IKA",
+					"name": "Primary Skill",
+					"children": [
+						{
+							"id": "sH2onBEvkXs1pWYDL",
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							],
+							"points": 4
+						}
+					]
+				},
+				{
+					"id": "SwZ3O9Om4GMm5R5Iz",
+					"name": "Secondary Skill",
+					"children": [
+						{
+							"id": "syNOgLSeE3zlC7_MH",
+							"name": "Alchemy",
+							"reference": "B174",
+							"tags": [
+								"Magical",
+								"Natural Science",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "slf9ZgKzUcQbYRipO",
+							"name": "Occultism",
+							"reference": "B212",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "SHiVF_a4IxVwp44da",
+							"name": "Choose Two:",
+							"children": [
+								{
+									"id": "spZ6bj1MTO2Q_nsJ3",
+									"name": "Staff",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Spear",
+											"modifier": -2
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sBdlEviE5vYxXQG5G",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "s-DdOtFsU7dX4Ttfz"
+									},
+									"name": "Shortsword",
+									"reference": "B209",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sqS0vfypuzep8IOJD",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sW0On3Z4nRf_QVqy1"
+									},
+									"name": "Broadsword",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sCuKN6f7S2NwS1GOC",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sOyWJEm6hrSyj4al_"
+									},
+									"name": "Innate Attack",
+									"reference": "B201",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "Beam",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sW0ue8N1F_KffW_-N",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "s6rCvCSMxy5vSy3gd"
+									},
+									"name": "Innate Attack",
+									"reference": "B201",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "Breath",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sFwQIr8I5xxIwpV0b",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "srCc5hZzKUhInxl3K"
+									},
+									"name": "Innate Attack",
+									"reference": "B201",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "Gaze",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										}
+									],
+									"points": 2
+								},
+								{
+									"id": "sGvftiUxzszebIoVM",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sJvwPKtI422-KNEiv"
+									},
+									"name": "Innate Attack",
+									"reference": "B201",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "Projectile",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										}
+									],
+									"points": 2
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "SFlKjOmJB3V1sB7RX",
+					"name": "Background Skill",
+					"children": [
+						{
+							"id": "S0aCtJtQ9jWJuF2Ll",
+							"name": "Eight of:",
+							"children": [
+								{
+									"id": "soANjpn3WR8bNDPYk",
+									"name": "Animal Handling",
+									"reference": "B175",
+									"tags": [
+										"Animal"
+									],
+									"specialization": "@Specialty@",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sy55w4F4DaMgKHxlp",
+									"name": "Fortune-Telling",
+									"reference": "B196",
+									"tags": [
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Fast-Talk",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Occultism",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s6IKUWtK6G6Xgv1J_",
+									"name": "Hidden Lore",
+									"reference": "B199",
+									"tags": [
+										"Knowledge"
+									],
+									"specialization": "@Subject@",
+									"difficulty": "iq/a",
+									"points": 1
+								},
+								{
+									"id": "s9DfiXhC-XLp_9TOq",
+									"name": "Teaching",
+									"reference": "B224",
+									"tags": [
+										"Scholarly",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "svCiGyf6r3lAJUpmf",
+									"name": "Archaeology",
+									"reference": "B176",
+									"tags": [
+										"Humanities",
+										"Social Sciences"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sahUqu9XDb3XT23wL",
+									"name": "Artist",
+									"reference": "B179",
+									"tags": [
+										"Arts",
+										"Entertainment"
+									],
+									"specialization": "@Art@",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Artist",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "skoC4i4iqBDarVLr1",
+									"name": "Astronomy",
+									"reference": "B179",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										}
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												},
+												"specialization": {
+													"compare": "is",
+													"qualifier": "applied"
+												}
+											}
+										]
+									},
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "skHM78lti3DBdze_0",
+									"name": "Jeweler",
+									"reference": "B203",
+									"tags": [
+										"Craft"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"specialization": "Copper",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smith",
+											"specialization": "Lead \u0026 Tin",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "s1UWGZ9rVcGkemVc9",
+									"name": "Mathematics",
+									"reference": "B207",
+									"tags": [
+										"Natural Science"
+									],
+									"specialization": "Applied",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Physics",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"modifier": -5
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "swVH2QKngyZO1KPgn",
+									"name": "Religious Ritual",
+									"reference": "B217",
+									"tags": [
+										"Magical",
+										"Occult"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Ritual Magic",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Theology",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "scizmIxoWv8XjwejQ",
+									"name": "Symbol Drawing",
+									"reference": "B224",
+									"tags": [
+										"Magical",
+										"Occult"
+									],
+									"difficulty": "iq/h",
+									"points": 1
+								},
+								{
+									"id": "sfFogXfGNfWcE76fi",
+									"name": "Alchemy",
+									"reference": "B174",
+									"tags": [
+										"Magical",
+										"Natural Science",
+										"Occult"
+									],
+									"difficulty": "iq/vh",
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "s1yQFgrVAbW7-amhh",
+									"name": "Herb Lore",
+									"reference": "B199",
+									"tags": [
+										"Plant"
+									],
+									"difficulty": "iq/vh",
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "contains",
+													"qualifier": "naturalist"
+												}
+											}
+										]
+									},
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sxVMybccY6RCvuiGj",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Skills.skl",
+										"id": "sfZrwMVUibhbtdssl"
+									},
+									"name": "Housekeeping",
+									"reference": "B200",
+									"tags": [
+										"Everyman"
+									],
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sPwq7hS5SurZhY8eu",
+									"name": "Research",
+									"reference": "B217",
+									"tags": [
+										"Scholarly",
+										"Spy"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Writing",
+											"modifier": -3
+										}
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "prereq_list",
+												"all": true,
+												"when_tl": {
+													"compare": "at_least",
+													"qualifier": 8
+												},
+												"prereqs": [
+													{
+														"type": "skill_prereq",
+														"has": true,
+														"name": {
+															"compare": "is",
+															"qualifier": "Computer Operation"
+														}
+													}
+												]
+											},
+											{
+												"type": "prereq_list",
+												"all": false,
+												"prereqs": [
+													{
+														"type": "trait_prereq",
+														"has": true,
+														"name": {
+															"compare": "starts_with",
+															"qualifier": "Language"
+														},
+														"notes": {
+															"compare": "contains",
+															"qualifier": "Written (Native"
+														}
+													},
+													{
+														"type": "trait_prereq",
+														"has": true,
+														"name": {
+															"compare": "starts_with",
+															"qualifier": "Language"
+														},
+														"notes": {
+															"compare": "contains",
+															"qualifier": "Written (Accented)"
+														}
+													},
+													{
+														"type": "trait_prereq",
+														"has": true,
+														"name": {
+															"compare": "starts_with",
+															"qualifier": "Language"
+														},
+														"notes": {
+															"compare": "contains",
+															"qualifier": "Written (Broken)"
+														}
+													}
+												]
+											}
+										]
+									},
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sik30yhvvVc0LH94P",
+									"name": "Savoir-Faire",
+									"reference": "B218",
+									"tags": [
+										"Knowledge",
+										"Social"
+									],
+									"specialization": "Magic-Users",
+									"difficulty": "iq/e",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Games",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sp5mBdTaZf80BYir6",
+									"name": "Speed-Reading",
+									"reference": "B222",
+									"tags": [
+										"Scholarly"
+									],
+									"difficulty": "iq/a",
+									"points": 1
+								},
+								{
+									"id": "sFDQn00X8C6FlpehU",
+									"name": "Writing",
+									"reference": "B228",
+									"tags": [
+										"Arts",
+										"Entertainment",
+										"Scholarly"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spells": [
+		{
+			"id": "PiLAFVKBabj4ylZYy",
+			"name": "10 points in spells"
+		}
+	],
+	"notes": [
+		{
+			"id": "nO88GIYP3jLnQVaDt",
+			"markdown": "It isn't easy mastering magic – of those few with even a hint of the gift, fewer still manage to tame it and control it before it consumes them (or just gets them burned by an angry mob). Apprenticeship is often gruelling, demeaning work, with the master handing out only the smallest nuggets of real knowledge in payment for hours of tedious labour. However, it's the only even half-safe way to become a true wizard.\n\nAn apprentice's day begins early. There are candles to light, potions to tend to, runes to scribe, and meals to prepare. Even if the master could chop wood or skin chickens by magic, he prefers to let the apprentice do it – both to keep him busy and to teach him not to call on magic for trivial acts. Power must be respected! Over the course of the day, the apprentice will help his master with his many tasks, sometimes accompanying him as he meets other wizards or offers counsel to nobles and merchants. At times, if the master is pleased, there will be formal training in the art of magic, some genuine wisdom that makes the tiring labour of the day seem almost worth it.\n\nSome apprentices leave before their training is complete – their master perished in some disaster and they barely escaped, or there was just one beating too many. Such individuals, with only the barest grasp on their gifts, can parley their limited powers into enough coin to pay for further training, or just learn as they travel, which can be dangerous to both themselves and their companions."
+		}
+	]
+}

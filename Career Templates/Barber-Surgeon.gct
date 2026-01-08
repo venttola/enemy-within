@@ -1,0 +1,2320 @@
+{
+	"version": 5,
+	"id": "B1FXMU808SN1yIuT4",
+	"traits": [
+		{
+			"id": "TwunyCNHWlKlvoBOd",
+			"name": "Barber-Surgeon",
+			"reference": "H36",
+			"children": [
+				{
+					"id": "T2MCGN-zeUsbNs9BR",
+					"name": "Attributes",
+					"children": [
+						{
+							"id": "tLjR_C3tLi6CxWEhY",
+							"name": "Increased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "maI5bVcd7AsIxemTL",
+									"name": "No Fine Manipulators",
+									"cost_adj": "-40%",
+									"disabled": true
+								}
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tcwn9ETNQCyiwmXls",
+							"name": "Increased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 40,
+								"current_level": 2
+							}
+						}
+					],
+					"calc": {
+						"points": 60
+					}
+				},
+				{
+					"id": "TynsoYAsgmh4ZvpDf",
+					"name": "Class Advantage",
+					"children": [
+						{
+							"id": "T_rCb-KvYoFo_F69L",
+							"name": "20 points chosen from",
+							"children": [
+								{
+									"id": "tKU2DM76FLNZqwJ2n",
+									"name": "Acute Hearing",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hearing",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t3bRAdW5v6AkGlx2z",
+									"name": "Acute Taste \u0026 Smell",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "taste_smell",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tGptGKc48DoQhnOpO",
+									"name": "Acute Touch",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "touch",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tGf8pj2zfO95SYYLV",
+									"name": "Acute Vision",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "vision",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t0R4Foz0HkBWtXUn7",
+									"name": "Common Sense",
+									"reference": "B43,P45",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mcUsrOEYs48JciwUH",
+											"name": "Concious",
+											"reference": "P45",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 10,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "t8Sk-cMXyGSKc7erh",
+									"name": "Empathy (Sensitive)",
+									"reference": "B51",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mdCwRJ_ixehy9tjPK",
+											"name": "Remote",
+											"reference": "P48",
+											"cost_adj": "50%",
+											"disabled": true
+										}
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "detect lies"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fortune-telling"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "psychology"
+											},
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tsKN3icFTH2ZNYI0e",
+									"name": "High Manual Dexterity",
+									"reference": "B59",
+									"local_notes": "Up to 4",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "artist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "jeweler"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "knot-tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "leatherworking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "lockpicking"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "pickpocket"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sewing"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sleight of hand"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "surgery"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "machinist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "mechanic"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tDuwXOAgc4tGoEU6Q",
+									"name": "Honest Face",
+									"reference": "PU2:4",
+									"tags": [
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "tmdZLcUMcervDf40f",
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "megCU0IcK9C9p0fuW",
+											"name": "No Fine Manipulators",
+											"cost_adj": "-40%",
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tzPwa3xVQNqrUfDFW",
+									"name": "Increased Intelligence",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "iq",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t0msCH_wOVX8rWV4E",
+									"name": "Increased Perception",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "per",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tXfApFmT5mgjB1Yfc",
+									"name": "Less Sleep",
+									"reference": "B65",
+									"local_notes": "Require 1 hour/level less sleep for a full night's rest (max 4)",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tcuvI21bOfIbUIxUb",
+									"name": "Night Vision",
+									"reference": "B71",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 1,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 1,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t2utJgrDF2UfKS11Y",
+									"name": "Single-Minded",
+									"reference": "B85",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
+											"amount": 3
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "to all rolls to notice interruptions while obsessed with a task",
+											"amount": -5
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tEjQwG44M01zfGITL",
+									"name": "Resistant to Poision",
+									"reference": "B81,P71,MA47",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "m6WsU57ZQbzd9adAx",
+											"name": "@Very Common: Metabolic Hazards, etc.@",
+											"reference": "B80",
+											"cost_adj": "30",
+											"disabled": true
+										},
+										{
+											"id": "mAivjNE30YajOHalm",
+											"name": "Poision",
+											"reference": "B81",
+											"cost_adj": "15"
+										},
+										{
+											"id": "mY9GbtR5THQpKc1c8",
+											"name": "@Occasional: Disease, Ingested Poison, etc.@",
+											"reference": "B81",
+											"cost_adj": "10",
+											"disabled": true
+										},
+										{
+											"id": "mDBObjfPzMtLZviBy",
+											"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+											"reference": "B81",
+											"cost_adj": "5",
+											"disabled": true
+										},
+										{
+											"id": "mWr3n-H7LvKxtv6Lv",
+											"name": "Immunity",
+											"reference": "B81",
+											"cost_adj": "x1",
+											"disabled": true
+										},
+										{
+											"id": "m_fTv67Dxt96EgRhC",
+											"name": "+8 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.5",
+											"disabled": true
+										},
+										{
+											"id": "mbGuIx6W8v3KYcSAR",
+											"name": "+3 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.33"
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "t1dgrSHABCofuEEqR",
+									"name": "Talent (Survivor)",
+									"reference": "PU3:16",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "First Aid"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Knot-Tying"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Naturalist"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Scrounging"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Survival"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From scouts, campers, and survivalists.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Success with Scrounging improvises simple equipment for other skills that removes -1/level from the penalty for being improvised (p. B345).",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tKoInrIqvUb4nz3iK",
+									"name": "Talent (Healer)",
+									"reference": "B90,PU3:11",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Talent (Healer)"
+												},
+												"level": {
+													"compare": "at_least",
+													"qualifier": 1
+												},
+												"notes": {
+													"compare": "contains",
+													"qualifier": "Modern"
+												}
+											}
+										]
+									},
+									"modifiers": [
+										{
+											"id": "mnaFi71kqFyzk5GRd",
+											"name": "Alternate Benefit",
+											"local_notes": "Bonus to HT rolls for a specific patient and condition if treated full time.",
+											"disabled": true
+										},
+										{
+											"id": "mtqXw8O4hK1iBgQ5x",
+											"name": "Alternative Cost",
+											"cost_adj": "-1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Diagnosis"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Esoteric Medicine"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "First Aid"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Pharmacy"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Physician"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Physiology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Psychology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Surgery"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Veterinary"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "from patients",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t7UotiqGFyHThcwt0",
+									"name": "Talent (Forensics Whiz Kid)",
+									"reference": "PU3:16",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "m7VlJeQNlT2UuKbRh",
+											"name": "Alternative Cost",
+											"cost_adj": "1",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Chemistry"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Criminology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Diagnosis"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Forensics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Psychology"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Research"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "From crime-lab employers and detectives.",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "Bonus to Per to spot clues when no skill applies",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "t8RepWSq5R1unnwbv",
+									"name": "Versatile",
+									"reference": "B96",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions",
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								}
+							],
+							"calc": {
+								"points": 112
+							}
+						}
+					],
+					"calc": {
+						"points": 112
+					}
+				},
+				{
+					"id": "TTkQMi-IIHF9SebTD",
+					"name": "Class Disadvantage",
+					"children": [
+						{
+							"id": "TNmrMm2UqC5vAnNvy",
+							"name": "-30 points chosen from",
+							"children": [
+								{
+									"id": "thO27IZEEBofkbtr4",
+									"name": "Absent-Mindedness",
+									"reference": "B122",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tfU81_sm8v31g2-kX",
+									"name": "Bad Sight (Nearsighted)",
+									"reference": "B123",
+									"local_notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mk0UnJy0fFPeTd1cu",
+											"name": "Mitigator",
+											"local_notes": "Glasses",
+											"cost_adj": "-60%",
+											"disabled": true
+										}
+									],
+									"base_points": -25,
+									"calc": {
+										"points": -25
+									}
+								},
+								{
+									"id": "tDuH3-F8vaOmMp-U-",
+									"name": "Combat Paralysis",
+									"reference": "B127",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "t7D1Mugw4lP1W2CGR",
+									"name": "Greed",
+									"reference": "B137",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tU-CiUV0AFt175iOZ",
+									"name": "Addiction (@Substance@)",
+									"reference": "B122",
+									"tags": [
+										"Disadvantage",
+										"Mental",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mKmclv-M-FN5cBaF_",
+											"name": "Cost: Cheap",
+											"reference": "B122",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mhZsKUSLZODK4Ur2b",
+											"name": "Cost: Expensive",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "myp0Id-xL4yFFbGQh",
+											"name": "Cost: Very Expensive",
+											"reference": "B122",
+											"cost_adj": "-20",
+											"disabled": true
+										},
+										{
+											"id": "mSck0l2LuD3BqhJ3k",
+											"name": "Effects: Hallucinogenic",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mp6T1SWD24p8a9l3Y",
+											"name": "Effects: Highly Addictive (-5 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "m8v1So7_sGZk-tKvR",
+											"name": "Effects: Incapacitating",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mi-fG8pebgp0ooBjl",
+											"name": "Effects: Totally Addictive (-10 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "m4yRFFzsvC6zkaPoe",
+											"name": "Illegal",
+											"reference": "B122",
+											"disabled": true
+										},
+										{
+											"id": "mzAYr6dLGWrQFpQHl",
+											"name": "Legal",
+											"reference": "B122",
+											"cost_adj": "5",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tQZIBG6S5pJ4XeYsV",
+									"name": "Callous",
+									"reference": "B125",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "psychology"
+											},
+											"amount": -3
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "teaching"
+											},
+											"amount": -3
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tkBZkgIXRDYCt5ZC0",
+									"name": "Code of Honor (Professional)",
+									"reference": "B127",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tgIB2ya8VKjvU4Mzz",
+									"name": "Compulsive Carousing",
+									"reference": "B128",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tohtXSE1VCookLLxO",
+									"name": "Cowardice",
+									"reference": "B129",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tJ8Bg-jCxNTS7t_H-",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tMA9_2yoV8Czd7arj"
+									},
+									"name": "Decreased Will",
+									"reference": "B16",
+									"tags": [
+										"Attribute",
+										"Disadvantage",
+										"Mental"
+									],
+									"points_per_level": -5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "will",
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tOGGIp-OJmTskOMFo",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "thI3hK3riuknUwkHF"
+									},
+									"name": "Decreased Strength",
+									"reference": "B14",
+									"tags": [
+										"Attribute",
+										"Disadvantage",
+										"Physical"
+									],
+									"points_per_level": -10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "st",
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tneckZvjYe3DFWXcG",
+									"name": "Overconfidence",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t8HbXbZ7Rm0wO83eS",
+									"name": "Laziness",
+									"reference": "B142",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tkJnZbX0en-QFWu4e",
+									"name": "Light Sleeper",
+									"reference": "B142",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tddsS9n-lcuQjrcgp",
+									"name": "Selfish",
+									"reference": "B153",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t4NOwzYCQzFAU9_wa",
+									"name": "Skinny",
+									"reference": "B18",
+									"local_notes": "-2 ST vs. knockback",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "attribute_prereq",
+												"has": true,
+												"qualifier": {
+													"compare": "at_most",
+													"qualifier": 14
+												},
+												"which": "ht"
+											}
+										]
+									},
+									"base_points": -5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "disguise"
+											},
+											"amount": -2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "shadowing"
+											},
+											"amount": -2
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t0zxkKNmgf0XasgJc",
+									"name": "Pacifism: Reluctant Killer",
+									"reference": "B148",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mivDPn2grqlFdEa46",
+											"name": "Species-Specific",
+											"reference": "UT32",
+											"cost_adj": "-80%",
+											"disabled": true
+										}
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "ta4tYA7_oIShGYjIU",
+									"name": "Selfish",
+									"reference": "B153",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								}
+							],
+							"calc": {
+								"points": -150
+							}
+						}
+					],
+					"calc": {
+						"points": -150
+					}
+				}
+			],
+			"calc": {
+				"points": 22
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SjPV-SF9TsdTn4OyP",
+			"name": "Barber-Surgeon",
+			"reference": "H36",
+			"children": [
+				{
+					"id": "SIstUb-ud7oO07Z3v",
+					"name": "Primary Skill",
+					"children": [
+						{
+							"id": "sIlRj9lAZlnheJ6gS",
+							"name": "Surgery",
+							"reference": "B223",
+							"tags": [
+								"Medical"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "First Aid",
+									"modifier": -12
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Physiology",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -5
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "first aid"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "physician"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "smfcBft_6-kIvuEZG",
+							"name": "First Aid",
+							"reference": "B195",
+							"tags": [
+								"Everyman",
+								"Medical"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "sTzwKakEE3e8mAZp_",
+							"name": "Diagnosis",
+							"reference": "B187",
+							"tags": [
+								"Medical"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "First Aid",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						}
+					]
+				},
+				{
+					"id": "SH1cMDKrjGRlKpo07",
+					"name": "Secondary Skill",
+					"children": [
+						{
+							"id": "sKymMbTBiISDRTJ52",
+							"name": "Physician",
+							"reference": "B213",
+							"tags": [
+								"Medical"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "First Aid",
+									"modifier": -11
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sHD4qfSkSiPB3mCMR",
+							"name": "Professional Skill",
+							"reference": "B215",
+							"tags": [
+								"Knowledge"
+							],
+							"specialization": "Barber",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "stP_hwfUMZxhnm-tP",
+							"name": "Poisons",
+							"reference": "B214",
+							"tags": [
+								"Criminal",
+								"Medical",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Chemistry",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Pharmacy",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -3
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sNzRjxLuALKushjIH",
+							"name": "Knife",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "SPz7dKQzAWNWEzQ3j",
+					"name": "Background Skill",
+					"children": [
+						{
+							"id": "SsnlaAhZg0z56iMQW",
+							"name": "15 points total in",
+							"children": [
+								{
+									"id": "sb_CBZ9tvMcRlsHTt",
+									"name": "Alchemy",
+									"reference": "B174",
+									"tags": [
+										"Magical",
+										"Natural Science",
+										"Occult"
+									],
+									"difficulty": "iq/vh",
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "si9brzTspJCXByJNB",
+									"name": "Animal Handling",
+									"reference": "B175",
+									"tags": [
+										"Animal"
+									],
+									"specialization": "@Specialty@",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s6U0hFk_dfDujrckF",
+									"name": "Axe/Mace",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sNKLgMVL_J01sFDMu",
+									"name": "Boating",
+									"reference": "B180",
+									"tags": [
+										"Vehicle"
+									],
+									"specialization": "@Boat class@",
+									"difficulty": "dx/a",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Motorboat",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Sailboat",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Boating",
+											"specialization": "Unpowered",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Seamanship",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sX7maD2WjHBziFkS7",
+									"name": "Brawling",
+									"reference": "B182,MA55",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/e",
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "weapons_with_required_skill",
+											"name": {
+												"compare": "is",
+												"qualifier": "Brawling"
+											},
+											"level": {
+												"compare": "at_least",
+												"qualifier": 2
+											},
+											"amount": 1,
+											"per_die": true
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sF7_mduOCJKcYaW4v",
+									"name": "Carousing",
+									"reference": "B183",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "ht/e",
+									"defaults": [
+										{
+											"type": "ht",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s1vDnfBd6G8F2iu_E",
+									"name": "Chemistry",
+									"reference": "B183",
+									"tags": [
+										"Natural Science"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Alchemy",
+											"modifier": -3
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sJ_jgzEtZr1ORqnMh",
+									"name": "Expert Skill",
+									"reference": "B193,MA56",
+									"tags": [
+										"Humanities",
+										"Knowledge",
+										"Scholarly",
+										"Social Sciences"
+									],
+									"specialization": "Thanatology",
+									"difficulty": "iq/h",
+									"points": 1
+								},
+								{
+									"id": "sG0BI8DuiCh9JBs2m",
+									"name": "Fast-Talk",
+									"reference": "B195",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Spy",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s7ntDb_zWe_u0ren2",
+									"name": "Diplomacy",
+									"reference": "B187",
+									"tags": [
+										"Business",
+										"Police",
+										"Social"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -6
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "shw10nIy-iM2C1VS0",
+									"name": "Gambling",
+									"reference": "B197",
+									"tags": [
+										"Criminal",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Mathematics",
+											"specialization": "Statistics",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "s3mVkFYE-71rQiAeR",
+									"name": "Intimidation",
+									"reference": "B202",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "will/a",
+									"defaults": [
+										{
+											"type": "will",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sJgRIRtN59J0HTnTa",
+									"name": "Merchant",
+									"reference": "B209",
+									"tags": [
+										"Business",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Finance",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Market Analysis",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sph7vl7Z7UNLNdQoo",
+									"name": "Naturalist",
+									"reference": "B211",
+									"tags": [
+										"Animal",
+										"Exploration",
+										"Natural Science",
+										"Outdoor",
+										"Plant"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Biology",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sPGP5OQXqrDXuf1ob",
+									"name": "Packing",
+									"reference": "B212",
+									"tags": [
+										"Animal"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Animal Handling",
+											"specialization": "Equines",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sStCIkr4-y619QX1v",
+									"name": "Pharmacy",
+									"reference": "B213",
+									"tags": [
+										"Design",
+										"Invention",
+										"Medical",
+										"Plant"
+									],
+									"specialization": "Herbal",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Biology",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Herb Lore",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Naturalist",
+											"modifier": -5
+										}
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "naturalist"
+												}
+											}
+										]
+									},
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sXXD2WoGSKN7KwrL_",
+									"name": "Physiology",
+									"reference": "B213",
+									"tags": [
+										"Medical",
+										"Natural Science"
+									],
+									"specialization": "@Specialty@",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Diagnosis",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Physician",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Surgery",
+											"modifier": -5
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "se6qhvBmDZ_39V0lX",
+									"name": "Public Speaking",
+									"reference": "B216",
+									"tags": [
+										"Business",
+										"Scholarly",
+										"Social"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Acting",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Performance",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Politics",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sI6AEZTtHwcaZqzhZ",
+									"name": "Teamster",
+									"reference": "B225",
+									"tags": [
+										"Animal",
+										"Vehicle"
+									],
+									"specialization": "Horses",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Animal Handling",
+											"specialization": "@Specialty@",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Riding",
+											"specialization": "@Specialty@",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Teamster",
+											"modifier": -3
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sw78RcOcwxD7tOmw-",
+									"name": "Scrounging",
+									"reference": "B218",
+									"tags": [
+										"Criminal",
+										"Street"
+									],
+									"difficulty": "per/e",
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sKWdbDXootiUuzkcL",
+									"name": "Sewing",
+									"reference": "B219",
+									"tags": [
+										"Craft",
+										"Everyman"
+									],
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sh0XtePZRmdpgzGN0",
+									"name": "Swimming",
+									"reference": "B224",
+									"tags": [
+										"Athletic",
+										"Exploration",
+										"Outdoor"
+									],
+									"difficulty": "ht/e",
+									"encumbrance_penalty_multiplier": 2,
+									"defaults": [
+										{
+											"type": "ht",
+											"modifier": -4
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "swLv4Q9ed0sbmJeTK",
+									"name": "Streetwise",
+									"reference": "B223",
+									"tags": [
+										"Criminal",
+										"Police",
+										"Social",
+										"Street"
+									],
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"points": 1
+								},
+								{
+									"id": "sHBe6XIV2ZKeNfIVp",
+									"name": "Wrestling",
+									"reference": "B228,MA61",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 1
+								},
+								{
+									"id": "s9upWNSpIwYz4PSlO",
+									"name": "Veterinary",
+									"reference": "B228",
+									"tags": [
+										"Animal",
+										"Medical"
+									],
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Animal Handling",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Physician",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Surgery",
+											"modifier": -5
+										}
+									],
+									"tech_level": "",
+									"points": 1
+								},
+								{
+									"id": "sX7NCA3-KuGvDN09v",
+									"name": "OR Further Primary or Secondary Skills",
+									"difficulty": "dx/a"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nYtAgVuNnJWyeOaZs",
+			"markdown": "A barber-surgeon provides painful but effective healing to the common folk of the Empire. They are not as learned as physicians, which is why physicians maintain a separate guild, but they know quite a lot about anatomy. While they also cut hair and shave, they are more noted for their bleedings, surgeries, and amputations. Barber-surgeons carry a variety of razor-sharp blades, from small scalpels to enormous bone saws. They have even more sinister looking tools for the most hated of their avocations: dentistry. Many large ships have a dedicated barber-surgeon as part of the crew; they are also common in towns and cities."
+		}
+	]
+}

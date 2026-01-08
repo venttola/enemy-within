@@ -1,0 +1,3666 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EsUUA17D_mi6g0vgj",
+			"description": "Axe/Mace",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eR2aF4Mi_pNstlcXC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eOJFIXvUSkQk5KC2f"
+					},
+					"description": "Mallet",
+					"reference": "LT54",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "3 lb",
+					"weapons": [
+						{
+							"id": "wkimyKv0ewMVLXz70",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "10",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw+1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "3 lb",
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eb4pawyQ6h-xrrjnU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ehU1DG5wUKyG5_0ih"
+					},
+					"description": "Rolling Pin",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "2 lb",
+					"weapons": [
+						{
+							"id": "w13hab9xJ7bY1IfRY",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "10",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw+1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eiStiqBSr5R-0PFRC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ehU1DG5wUKyG5_0ih"
+					},
+					"description": "Intact Bottle",
+					"reference": "LT58",
+					"local_notes": "If broken, treat as a broken bottle.",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wMZ1GMA1w00RdB4sD",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-1"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "ebqGsOAQ3gG3cS5Cc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ehU1DG5wUKyG5_0ih"
+					},
+					"description": "Mug or Stein",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "0",
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wp0Ak4w7_SQN9P9kp",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "0"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eBW23PBO0lpEo0P3a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eOJFIXvUSkQk5KC2f"
+					},
+					"description": "Large Mug or Stein",
+					"reference": "LT54",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "35",
+					"base_weight": "3 lb",
+					"weapons": [
+						{
+							"id": "wcpsk9Rzl5SbjBexx",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "10",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw+1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 35,
+						"extended_value": 35,
+						"weight": "3 lb",
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "ejVDQx6OhtSrF2rG8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eNROYfnjT1DYJkdkS"
+					},
+					"description": "Iron Pan",
+					"reference": "LT58",
+					"local_notes": "In one hand, can be used as iron small shield (DB1) An unwieldy but solid weapon – breakage is as for good quality!",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "35",
+					"base_weight": "5 lb",
+					"weapons": [
+						{
+							"id": "wXq31MssMb3zcx0qG",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "12",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+1 cr"
+							}
+						},
+						{
+							"id": "wP9XfrTDPQG8ze8i3",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 35,
+						"extended_value": 35,
+						"weight": "5 lb",
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "eep4yJmr2tfGOJ3fN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "elh_eFb_-3ca-rEdE"
+					},
+					"description": "Sickle",
+					"reference": "LT62",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "40",
+					"base_weight": "2 lb",
+					"weapons": [
+						{
+							"id": "wyccdgERQmhMTpvNP",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw cut"
+							}
+						},
+						{
+							"id": "woW6e1aBTZY5jUDNE",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "8",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr-2 cut"
+							}
+						},
+						{
+							"id": "w01Ly9FVagIQ3dQVm",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swing",
+							"usage_notes": "May get stuck",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 40,
+						"extended_value": 40,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 110,
+				"weight": "0 lb",
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "EvX_NvPVtGZ9WRLTn",
+			"description": "Brawling",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ezVGTxi5ZwgdFuphf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Coin Purse, Filled",
+					"reference": "LT55",
+					"local_notes": "If it breaks, its contents spill out!",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wN4TLj0650rqfjzI4",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"strength": "7",
+							"usage": "Swung",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e0qX3bXB9jp8qKOpF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Boots, Shoes, or Sandals",
+					"reference": "LT63",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "w4Q3Pjra5aqR_VcJs",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "7",
+							"usage": "Held In Hand",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						},
+						{
+							"id": "wOwuu-KswQ-QPe6Hq",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Swung By Laces",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-2 cr"
+							}
+						},
+						{
+							"id": "WLNIWxong_ansJGcB",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Thrown",
+							"range": "x3/x5",
+							"rate_of_fire": "1",
+							"shots": "T",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Bolas",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Sling",
+									"modifier": -2
+								},
+								{
+									"type": "dx",
+									"modifier": -8
+								}
+							],
+							"calc": {
+								"damage": "sw-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e-7zXL3-fXX-2v_Tn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Book or Codex",
+					"reference": "LT63",
+					"local_notes": "If held two-handed, acts as small shield (DB1)",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "3 lb",
+					"weapons": [
+						{
+							"id": "wVgAf2F5b17THExBj",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "7",
+							"usage": "Swung",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr-2 cr"
+							}
+						},
+						{
+							"id": "wgTlLszei7IRAkT46",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "3 lb",
+						"extended_weight": "3 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "Ef5beHZe_52oDxl1x",
+			"description": "Broadsword",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ecgDiHjmneMaV1LSA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eK17o5feHeURAy5d9"
+					},
+					"description": "Large Billhook",
+					"reference": "LT56",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "625",
+					"base_weight": "4.5 lb",
+					"weapons": [
+						{
+							"id": "wilywQoT3i-tBRVZ5",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "2"
+							},
+							"strength": "11",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw+2 cut"
+							}
+						},
+						{
+							"id": "wZoSN_WG_3zTbi1Ur",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "11",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fUmxlLPfd13apkIEH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+								"id": "fQPRWL7wJr_qVtRvY"
+							},
+							"name": "Cheap",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF"
+						},
+						{
+							"id": "fcJBX6KXF0kzMqX42",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+								"id": "fBItEwbkEb49jZtAt"
+							},
+							"name": "Poorly Balanced",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"amount": -1
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 125,
+						"extended_value": 125,
+						"weight": "4.5 lb",
+						"extended_weight": "4.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 125,
+				"weight": "0 lb",
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "EG9AeTJYy68abDMLG",
+			"description": "Flail",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eyfounB3YltxpS065",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eBQpZCtLkPmFtne22"
+					},
+					"description": "Belt",
+					"reference": "LT63",
+					"local_notes": "If used as a garrote; -1 to damage, as rope garrote, see B405. ",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"weapons": [
+						{
+							"id": "we6RdubXPY9fzC5pz",
+							"sv": 1,
+							"damage": {
+								"type": "see B405"
+							},
+							"usage": "Belt Garrote",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Garrote",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "see B405"
+							}
+						},
+						{
+							"id": "wbd8FHHV-2PM37rhC",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Strike With Buckle",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw-2 cr"
+							}
+						},
+						{
+							"id": "wdgSIrCuMT1ryaIPS",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-3",
+								"armor_divisor": 0.5
+							},
+							"strength": "5",
+							"usage": "Strike As Whip",
+							"reach": "1",
+							"parry": "-2U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Whip",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kusari",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Monowire Whip",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-3(0.5) cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "exikt4YQoTKFWEldM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Boots, Shoes, or Sandals",
+					"reference": "LT63",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wzbGuY4ayVMUq4CXf",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "7",
+							"usage": "Held In Hand",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						},
+						{
+							"id": "wgdXIQHQyUsQhMt9W",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Swung By Laces",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-2 cr"
+							}
+						},
+						{
+							"id": "W2FTZxFAB4CodHdqa",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Thrown",
+							"range": "x3/x5",
+							"rate_of_fire": "1",
+							"shots": "T",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Bolas",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Sling",
+									"modifier": -2
+								},
+								{
+									"type": "dx",
+									"modifier": -8
+								}
+							],
+							"calc": {
+								"damage": "sw-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eLaphNOqjRawKSNYw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eBQpZCtLkPmFtne22"
+					},
+					"description": "Scarf",
+					"reference": "LT56",
+					"local_notes": "If used as a rope garrote, see B405. Knotting something heavy in the end creates a flail-type weapon.",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"weapons": [
+						{
+							"id": "w1emTgG6pejoGgjaa",
+							"sv": 1,
+							"damage": {
+								"type": "see B405"
+							},
+							"usage": "Scarf Garrote",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Garrote",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "see B405"
+							}
+						},
+						{
+							"id": "wqayo8R6uO9WvqSrC",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw"
+							},
+							"strength": "6",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EOzt992wL89QkXEdN",
+			"description": "Garrote",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "erNvfZbYz4tfV69YN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eBQpZCtLkPmFtne22"
+					},
+					"description": "Belt",
+					"reference": "LT63",
+					"local_notes": "If used as a garrote; -1 to damage, as rope garrote, see B405. ",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"weapons": [
+						{
+							"id": "wx5lZ5ALdpg_y3aOk",
+							"sv": 1,
+							"damage": {
+								"type": "see B405"
+							},
+							"usage": "Belt Garrote",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Garrote",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "see B405"
+							}
+						},
+						{
+							"id": "w8s24aXi6eG2njhf_",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Strike With Buckle",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw-2 cr"
+							}
+						},
+						{
+							"id": "wKxEV5CcmQyMh290W",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-3",
+								"armor_divisor": 0.5
+							},
+							"strength": "5",
+							"usage": "Strike As Whip",
+							"reach": "1",
+							"parry": "-2U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Whip",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kusari",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Monowire Whip",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-3(0.5) cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eoVp5ACYLM4FOJazO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eBQpZCtLkPmFtne22"
+					},
+					"description": "Bootlaces",
+					"reference": "LT56",
+					"local_notes": "-1 to damage, as rope garrote, see B405",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"weapons": [
+						{
+							"id": "w6YHxdgNIrSCzV4DP",
+							"sv": 1,
+							"damage": {
+								"type": "see B405"
+							},
+							"usage": "Bootlace Garrote",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Garrote",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "see B405"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "edaoYr2gxr5WCMttq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eBQpZCtLkPmFtne22"
+					},
+					"description": "Scarf",
+					"reference": "LT56",
+					"local_notes": "If used as a rope garrote, see B405. Knotting something heavy in the end creates a flail-type weapon.",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"weapons": [
+						{
+							"id": "wLCYbOuv7FW1uU3N4",
+							"sv": 1,
+							"damage": {
+								"type": "see B405"
+							},
+							"usage": "Scarf Garrote",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Garrote",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "see B405"
+							}
+						},
+						{
+							"id": "w5s9FwY84VaLUeAAD",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw"
+							},
+							"strength": "6",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "E2eZ135r213iQwob0",
+			"description": "Knife",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e9RJGzfIlX3lpraEc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eEkk6WpqrCj5KoCNQ"
+					},
+					"description": "Arrow Or Bolt",
+					"reference": "LT56",
+					"local_notes": "Breaks on 1-3 on 1d on any successful strike or parry",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "0.1 lb",
+					"weapons": [
+						{
+							"id": "wJLI1vmAlNF7bfX2C",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "3",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "ergYiBOTVsYyUHEv1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ee1kRIRXHzUdofj74"
+					},
+					"description": "Broken Bottle",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "0.5 lb",
+					"weapons": [
+						{
+							"id": "wV9O2PhXD30a_eIDk",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "-3",
+								"armor_divisor": 0.5
+							},
+							"strength": "5",
+							"usage": "Swung",
+							"reach": "C,1",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-3(0.5) cut"
+							}
+						},
+						{
+							"id": "wDt3B5HTvnBgolP6K",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-3",
+								"armor_divisor": 0.5
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "thr-3(0.5) imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.5 lb",
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "eLS42M8lj7dc9C5Ru",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eEkk6WpqrCj5KoCNQ"
+					},
+					"description": "Small Spit",
+					"reference": "LT56",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "w_Kjxy4Df91XyGeSk",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-3"
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "thr-3 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ePNMtdElv7vKn7KSB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eEkk6WpqrCj5KoCNQ"
+					},
+					"description": "Medium Spit or Spike",
+					"reference": "LT56",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_value": "20",
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "wXSSe8IiKoKtM-2FA",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "thr-2 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 20,
+						"extended_value": 20,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ewLhODNTXli3c5BFZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e4Cqh4R-bWl7CS7dQ"
+					},
+					"description": "Long Spit or Spindle",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "w9TZWwaU6dt4lGVhp",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eDaCK5SR5jBZTUN-C",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eEkk6WpqrCj5KoCNQ"
+					},
+					"description": "Awl or Punch",
+					"reference": "LT56",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "wJAJrVlziZ1xlI52Y",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eCVp7MiNXAo8F8fEr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eEkk6WpqrCj5KoCNQ"
+					},
+					"description": "Chisel, Spike or Big Nail",
+					"reference": "LT56",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "wZLOr8jbNDzAH6X76",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "thr-2 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 20,
+				"weight": "0 lb",
+				"extended_weight": "2.6 lb"
+			}
+		},
+		{
+			"id": "EKW3N4bdxo_7bBx1S",
+			"description": "Shield",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "emUWMxaVquVTLVuFk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eNROYfnjT1DYJkdkS"
+					},
+					"description": "Iron Pan",
+					"reference": "LT58",
+					"local_notes": "In one hand, can be used as iron small shield (DB1) An unwieldy but solid weapon – breakage is as for good quality!",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "35",
+					"base_weight": "5 lb",
+					"weapons": [
+						{
+							"id": "wJFQfSeTD3yOjymJm",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "12",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+1 cr"
+							}
+						},
+						{
+							"id": "w61UZxO4gXk4LELey",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 35,
+						"extended_value": 35,
+						"weight": "5 lb",
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e4nzoUaJGdUDTGbEa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Book or Codex",
+					"reference": "LT63",
+					"local_notes": "If held two-handed, acts as small shield (DB1)",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "3 lb",
+					"weapons": [
+						{
+							"id": "wnXHlM2wLo46xNTNq",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "7",
+							"usage": "Swung",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr-2 cr"
+							}
+						},
+						{
+							"id": "wDb5oh7yRN3qpWCqq",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "3 lb",
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eDq6kWyqOg507LjQY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ey_8MkQ9Fj9IUl8hf"
+					},
+					"description": "Chair or Stool",
+					"reference": "LT58",
+					"local_notes": "Held in one hand, acts as medium shield (DB2)",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "12 lb",
+					"weapons": [
+						{
+							"id": "wBG6wlTpO2VdROSlA",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "4"
+							},
+							"strength": "13‡",
+							"usage": "Swing",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+4 cr"
+							}
+						},
+						{
+							"id": "w3ioqHLLF0WqZmtX3",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "12 lb",
+						"extended_weight": "12 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 35,
+				"weight": "0 lb",
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "EA3FeoKi7jFHs0JAM",
+			"description": "Shortsword",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "exDdy9EYM7WuZQC5A",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e9kI7mSnBTZp5aJTA"
+					},
+					"description": "Rolled Scroll",
+					"reference": "LT54",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "20",
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wREK71oVNDuY0Ve49",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw-1 cr"
+							}
+						},
+						{
+							"id": "wNL3LcVnafZtmhPf0",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 20,
+						"extended_value": 20,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "ekegKUPvq7WREUdIs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "edQFaHvX_nrGL4ra6"
+					},
+					"description": "Small Billhook",
+					"reference": "LT56",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "200",
+					"base_weight": "2 lb",
+					"weapons": [
+						{
+							"id": "wnmZiF3xbNV3b6XHX",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw cut"
+							}
+						},
+						{
+							"id": "wEu4bb3MIqmhGwyAF",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-2"
+							},
+							"strength": "8",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr-2 imp"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fPqPdqu2GLVfszQN4",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+								"id": "fQPRWL7wJr_qVtRvY"
+							},
+							"name": "Cheap",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF"
+						},
+						{
+							"id": "fC987koO655Qq_rV-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+								"id": "fBItEwbkEb49jZtAt"
+							},
+							"name": "Poorly Balanced",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"amount": -1
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 40,
+						"extended_value": 40,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eJXaVfDjpNLVuAC1D",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "edQFaHvX_nrGL4ra6"
+					},
+					"description": "Cleaver",
+					"reference": "LT56",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "2 lb",
+					"weapons": [
+						{
+							"id": "w8bsz6YcHuINbvdme",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw cut"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 60,
+				"weight": "0 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "Ed5KiZ5q0RNwx0w5J",
+			"description": "Sling",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "emBz6XYYKs5JVP0KY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e807FJw5TXekIwGGG"
+					},
+					"description": "Boots, Shoes, or Sandals",
+					"reference": "LT63",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wtEql2xs03H_gQOGk",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "7",
+							"usage": "Held In Hand",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						},
+						{
+							"id": "wYsgplz12OQHnHiMf",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "5",
+							"usage": "Swung By Laces",
+							"reach": "1",
+							"parry": "-2U",
+							"block": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "sw-2 cr"
+							}
+						},
+						{
+							"id": "WnJQ27J4a7FkQgTT5",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "-1"
+							},
+							"strength": "6",
+							"usage": "Thrown",
+							"range": "x3/x5",
+							"rate_of_fire": "1",
+							"shots": "T",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Bolas",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Sling",
+									"modifier": -2
+								},
+								{
+									"type": "dx",
+									"modifier": -8
+								}
+							],
+							"calc": {
+								"damage": "sw-1 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EpZ5P9MKGhm0OZZK5",
+			"description": "Spear",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e5ahLdykKFAoYzPCX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ezzOYj-J1IwXY-ERY"
+					},
+					"description": "Pitchfork",
+					"reference": "LT64",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "5 lb",
+					"weapons": [
+						{
+							"id": "weU1krKuTwQmhnGEx",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "2",
+								"armor_divisor": 0.5
+							},
+							"strength": "11",
+							"usage": "Thrust",
+							"reach": "1*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Staff",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "thr+2(0.5) imp"
+							}
+						},
+						{
+							"id": "wV1bFELNDjGnCQp6-",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "3",
+								"armor_divisor": 0.5
+							},
+							"strength": "10†",
+							"usage": " Thrust - two hands",
+							"reach": "1-2*",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Staff",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr+3(0.5) imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "5 lb",
+						"extended_weight": "5 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "Eeb2lRTm675ZmuL8y",
+			"description": "Two-Handed Axe/Mace",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eFe8dLmAc9oDtiVU4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ehGvmGqOMR06bLeCk"
+					},
+					"description": "Hoe",
+					"reference": "LT58",
+					"tech_level": "2",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "15",
+					"base_weight": "3 lb",
+					"weapons": [
+						{
+							"id": "wMFgNZtGBh7ewsvne",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8‡",
+							"usage": "Swung",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "sw cut"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 15,
+						"extended_value": 15,
+						"weight": "3 lb",
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "e4JcY8JVJhFJX_LQz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "e_lS2hphKAPenuN1w"
+					},
+					"description": "Scythe",
+					"reference": "LT61",
+					"local_notes": "Point swing may get stuck; see Picks (p. B405); thrust enables the rules under Hook (p. 54), and may also damage the victim.",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_value": "15",
+					"base_weight": "5 lb",
+					"weapons": [
+						{
+							"id": "wNdbyJtiFb0c_VJ_6",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "3"
+							},
+							"strength": "11‡",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw+3 cut"
+							}
+						},
+						{
+							"id": "wx6zP2fmDtlwhVfJU",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "sw",
+								"base": "1"
+							},
+							"strength": "11‡",
+							"usage": "Point Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "sw+1 imp"
+							}
+						},
+						{
+							"id": "wY5dAjyA7XPath_T6",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "11‡",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace"
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 15,
+						"extended_value": 15,
+						"weight": "5 lb",
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "edDK6j3gnWHlS9umP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "eAcLA_uoBCUNnhqZ6"
+					},
+					"description": "Rake",
+					"reference": "LT64",
+					"tech_level": "3",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "7 lb",
+					"weapons": [
+						{
+							"id": "wMT2m6tecAfKHzAfT",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "sw",
+								"base": "3",
+								"armor_divisor": 0.5
+							},
+							"strength": "12‡",
+							"usage": "Swing",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+3(0.5) imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "7 lb",
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "e4CcJcS8acF5nni0N",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ey_8MkQ9Fj9IUl8hf"
+					},
+					"description": "Chair or Stool",
+					"reference": "LT58",
+					"local_notes": "Held in one hand, acts as medium shield (DB2)",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "12 lb",
+					"weapons": [
+						{
+							"id": "wIk094HIxO-5YCm1u",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "4"
+							},
+							"strength": "13‡",
+							"usage": "Swing",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+4 cr"
+							}
+						},
+						{
+							"id": "wghuFt1raWZxJITRf",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Shield Bash",
+							"reach": "1",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "12 lb",
+						"extended_weight": "12 lb"
+					}
+				},
+				{
+					"id": "e8_LUG1gkIFez-cCG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech/Low Tech Equipment.eqp",
+						"id": "ey_8MkQ9Fj9IUl8hf"
+					},
+					"description": "Shovel",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"base_weight": "12 lb",
+					"weapons": [
+						{
+							"id": "wvZ9wTAMWGVQgx8g0",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "4"
+							},
+							"strength": "13‡",
+							"usage": "Swing",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"modifier": -6
+								}
+							],
+							"calc": {
+								"damage": "sw+4 cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "12 lb",
+						"extended_weight": "12 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 30,
+				"weight": "0 lb",
+				"extended_weight": "39 lb"
+			}
+		}
+	]
+}
