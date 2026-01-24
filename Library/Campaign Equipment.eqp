@@ -7243,7 +7243,7 @@
 							"base_weight": "5 lb",
 							"weapons": [
 								{
-									"id": "wrTXO2hRWqf12KZ1f",
+									"id": "wjCRzHK8FzgPnDXYB",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7279,7 +7279,7 @@
 									}
 								},
 								{
-									"id": "wqwi8bxQnmCc8nMay",
+									"id": "wukRlkO8J_MmQdd0J",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7316,7 +7316,7 @@
 									}
 								},
 								{
-									"id": "wu0N1pFt4cUkJStLS",
+									"id": "wMEA44-lxdY1CJC9k",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7357,7 +7357,7 @@
 									}
 								},
 								{
-									"id": "wb8snnoP2dLk_6F90",
+									"id": "wZjwR0Ws769hvhgv0",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7399,7 +7399,7 @@
 									}
 								},
 								{
-									"id": "wUNPIWN7Mj1edh8XD",
+									"id": "w88XAIt71ImI20VmD",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7408,6 +7408,7 @@
 									},
 									"usage": "Spike",
 									"reach": "1",
+									"parry": "0",
 									"defaults": [
 										{
 											"type": "skill",
@@ -7433,7 +7434,7 @@
 									}
 								},
 								{
-									"id": "wKlNvJ9VxWm2NfIm_",
+									"id": "wn0jd0kpSdEkuaxSF",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7442,6 +7443,7 @@
 									},
 									"usage": "Spike, two handed",
 									"reach": "1",
+									"parry": "0",
 									"defaults": [
 										{
 											"type": "dx",
@@ -7467,7 +7469,7 @@
 									}
 								},
 								{
-									"id": "W7VSpsjVrmARnWYsa",
+									"id": "WOllX9nNweoR2XLKL",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7499,7 +7501,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "fOyeRoBG4mRpG8tgp",
+									"id": "fvharjPH0wYJMaVwJ",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
 										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
@@ -7512,7 +7514,7 @@
 									"weight": "+0.5 lb"
 								},
 								{
-									"id": "fr9Ox4Co6C0dkQ2QD",
+									"id": "fuBDLufIzwhtkXgtu",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
 										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
