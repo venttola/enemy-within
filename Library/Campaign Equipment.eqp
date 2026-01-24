@@ -10,6 +10,195 @@
 			"equipped": true,
 			"children": [
 				{
+					"id": "eOS-wkyK0fAhkfuZ7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+						"id": "ev1oCQpyENWw7NIi0"
+					},
+					"description": "Holy Symbol",
+					"reference": "DF1:26",
+					"tags": [
+						"Esoteric Supplies"
+					],
+					"base_value": "50",
+					"base_weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"value": 50,
+						"extended_value": 50,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "E7K49RuUs1nbtr0ru",
+					"description": "Survival",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eB9qMfSMua4XhVo2h",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+								"id": "ezvB5b3YEpSINzYfM"
+							},
+							"description": "Burning Glass",
+							"reference": "DF1:26",
+							"local_notes": "Sets fires with sunlight",
+							"tags": [
+								"Optics"
+							],
+							"base_value": "40",
+							"base_weight": "0.25 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 40,
+								"extended_value": 40,
+								"weight": "0.25 lb",
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "eBto1fYeDpnMh9T67",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+								"id": "esH8ny1hQqnuYT1-n"
+							},
+							"description": "Blanket",
+							"reference": "DF1:23",
+							"tech_level": "1",
+							"tags": [
+								"Camping and Survival Gear"
+							],
+							"base_value": "20",
+							"base_weight": "4 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "4 lb",
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "enJWpt8u2669K3eXQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eOhHNHTW06_0BPvdj"
+							},
+							"description": "Compass",
+							"reference": "LT52",
+							"tech_level": "3",
+							"tags": [
+								"Personal Gear"
+							],
+							"base_value": "25",
+							"base_weight": "1 lb",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "Navigation"
+									},
+									"amount": 1
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 25,
+								"extended_value": 25,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eM9VrOU4478pyGQSn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+								"id": "eL-sN4ie99_wHT2_d"
+							},
+							"description": "Group Basics",
+							"reference": "DF1:23",
+							"local_notes": "Basic EQ for Cooking/Survival for 3-8 people",
+							"tech_level": "1",
+							"tags": [
+								"Camping and Survival Gear"
+							],
+							"base_value": "50",
+							"base_weight": "20 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 50,
+								"extended_value": 50,
+								"weight": "20 lb",
+								"extended_weight": "20 lb"
+							}
+						},
+						{
+							"id": "eN7HqMBgg29rRxF7_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+								"id": "ebkSUnvk3DjI8JKX1"
+							},
+							"description": "Personal Basics",
+							"reference": "DF1:23",
+							"local_notes": "Basic EQ for individual Survival",
+							"tech_level": "1",
+							"tags": [
+								"Camping and Survival Gear"
+							],
+							"base_value": "5",
+							"base_weight": "1 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eI9zBdWCknWD6jo4R",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
+								"id": "eVFSaXvQKcvWCTdXZ"
+							},
+							"description": "Rations",
+							"reference": "DF1:23",
+							"local_notes": "One meal",
+							"tech_level": "0",
+							"tags": [
+								"Camping and Survival Gear"
+							],
+							"base_value": "2",
+							"base_weight": "0.5 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 2,
+								"extended_value": 2,
+								"weight": "0.5 lb",
+								"extended_weight": "0.5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 142,
+						"weight": "0 lb",
+						"extended_weight": "26.75 lb"
+					}
+				},
+				{
 					"id": "ElZBo-lJWwlB4a5zK",
 					"description": "Tools",
 					"legality_class": "4",
@@ -62,6 +251,30 @@
 							}
 						},
 						{
+							"id": "ehg805syO--njsQud",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "e_27rGKyfVWnlLGj6"
+							},
+							"description": "Rope (1/2\") ",
+							"reference": "LT23",
+							"local_notes": "Supports 450 lbs. static load. 10 Yards",
+							"tech_level": "0",
+							"tags": [
+								"Survival"
+							],
+							"base_value": "5",
+							"base_weight": "2.25 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "2.25 lb",
+								"extended_weight": "2.25 lb"
+							}
+						},
+						{
 							"id": "eH7NoPl8rbM8tpl5c",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -82,6 +295,30 @@
 								"extended_value": 25,
 								"weight": "5 lb",
 								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "eyBSvbysdH3SvgPSB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eqVNGZlCtk1DbBD4c"
+							},
+							"description": "Silk Rope (1/2\")",
+							"reference": "LT23",
+							"local_notes": "Supports 1250 lbs. static load. 10 Yards",
+							"tech_level": "1",
+							"tags": [
+								"Survival"
+							],
+							"base_value": "25",
+							"base_weight": "1.25 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 25,
+								"extended_value": 25,
+								"weight": "1.25 lb",
+								"extended_weight": "1.25 lb"
 							}
 						},
 						{
@@ -408,40 +645,6 @@
 							}
 						},
 						{
-							"id": "evIlNVl-tPgJejXIT",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-								"id": "eX_r9bJXE9CYF7QYQ"
-							},
-							"description": "Compass",
-							"reference": "DF1:25",
-							"local_notes": "Basic EQ for Navigation",
-							"tags": [
-								"Camping and Survival Gear"
-							],
-							"base_value": "50",
-							"base_weight": "5 lb",
-							"features": [
-								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "starts_with",
-										"qualifier": "navigation"
-									},
-									"amount": 1
-								}
-							],
-							"quantity": 1,
-							"calc": {
-								"value": 50,
-								"extended_value": 50,
-								"weight": "5 lb",
-								"extended_weight": "5 lb"
-							}
-						},
-						{
 							"id": "e8R64LT1POb5anw3R",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -513,57 +716,9 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 2024,
+						"extended_value": 2004,
 						"weight": "0 lb",
-						"extended_weight": "33.433 lb"
-					}
-				},
-				{
-					"id": "eI9zBdWCknWD6jo4R",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "eVFSaXvQKcvWCTdXZ"
-					},
-					"description": "Rations",
-					"reference": "DF1:23",
-					"local_notes": "One meal",
-					"tech_level": "0",
-					"tags": [
-						"Camping and Survival Gear"
-					],
-					"base_value": "2",
-					"base_weight": "0.5 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 2,
-						"extended_value": 2,
-						"weight": "0.5 lb",
-						"extended_weight": "0.5 lb"
-					}
-				},
-				{
-					"id": "eN7HqMBgg29rRxF7_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "ebkSUnvk3DjI8JKX1"
-					},
-					"description": "Personal Basics",
-					"reference": "DF1:23",
-					"local_notes": "Basic EQ for individual Survival",
-					"tech_level": "1",
-					"tags": [
-						"Camping and Survival Gear"
-					],
-					"base_value": "5",
-					"base_weight": "1 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 5,
-						"extended_value": 5,
-						"weight": "1 lb",
-						"extended_weight": "1 lb"
+						"extended_weight": "31.933 lb"
 					}
 				},
 				{
@@ -706,6 +861,30 @@
 					"equipped": true,
 					"children": [
 						{
+							"id": "erXnBCMl3ponWJCPN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eDSkRLhy4G1d_p78g"
+							},
+							"description": "Mini-Tool Kit (@Skill@)",
+							"reference": "HT24",
+							"local_notes": "-2 quality.",
+							"tech_level": "4",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "200",
+							"base_weight": "4 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 200,
+								"extended_value": 200,
+								"weight": "4 lb",
+								"extended_weight": "4 lb"
+							}
+						},
+						{
 							"id": "eypCrl_mfPCFc70pS",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -715,6 +894,7 @@
 							"description": "Tool Kit, Backpack (@Skill: Armoury, Smith, etc@)",
 							"reference": "DF1:24",
 							"local_notes": "Basic equipment for @Skill: Armoury, Smith, etc@. -2 for other skills",
+							"tech_level": "4",
 							"tags": [
 								"Tools"
 							],
@@ -729,15 +909,64 @@
 							}
 						},
 						{
-							"id": "enNFCBiTFL0UzF1Bz",
+							"id": "egdT1ynSaJZcZReIY",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
-								"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-								"id": "eb6ohlcmewltIds6x"
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eWPdj8iAuN0TGUrcf"
 							},
-							"description": "Surgical Instruments",
-							"reference": "DF1:24",
-							"local_notes": "Basic EQ for Surgery",
+							"description": "Workshop (@Skill@)",
+							"reference": "HT24",
+							"local_notes": "External power.",
+							"tech_level": "4",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "15000",
+							"base_weight": "2,000 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 15000,
+								"extended_value": 15000,
+								"weight": "2,000 lb",
+								"extended_weight": "2,000 lb"
+							}
+						},
+						{
+							"id": "eGQuNHkVEk60zxQh2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ep6eJohQxmmSJz8MO"
+							},
+							"description": "Barber's Kit",
+							"reference": "LT148",
+							"local_notes": "Can be used for minor surgery, at -1 to skill",
+							"tech_level": "1",
+							"tags": [
+								"Medical Gear"
+							],
+							"base_value": "100",
+							"base_weight": "3 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 100,
+								"extended_value": 100,
+								"weight": "3 lb",
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "edojWAYA3X8tojZX_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "efEqh-ItxQtzGE-M-"
+							},
+							"description": "Surgeon Kit, Small",
+							"reference": "LT149",
+							"local_notes": "Basic equipment for Surgery",
+							"tech_level": "1",
 							"tags": [
 								"Medical Gear"
 							],
@@ -749,6 +978,53 @@
 								"extended_value": 300,
 								"weight": "15 lb",
 								"extended_weight": "15 lb"
+							}
+						},
+						{
+							"id": "exfu-Pp4CY9JP7PfE",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ePxyTIwqcPzjdv2h_"
+							},
+							"description": "Surgeon Kit, Large",
+							"reference": "LT149",
+							"local_notes": "Gives +1 to skill",
+							"tech_level": "1",
+							"tags": [
+								"Medical Gear"
+							],
+							"base_value": "1500",
+							"base_weight": "40 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 1500,
+								"extended_value": 1500,
+								"weight": "40 lb",
+								"extended_weight": "40 lb"
+							}
+						},
+						{
+							"id": "eLbd4LaGLvJXPdhhf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ezuj2rvh2Fd7iyVyb"
+							},
+							"description": "Cautery",
+							"reference": "LT149",
+							"tech_level": "2",
+							"tags": [
+								"Medical Gear"
+							],
+							"base_value": "50",
+							"base_weight": "0.5 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 50,
+								"extended_value": 50,
+								"weight": "0.5 lb",
+								"extended_weight": "0.5 lb"
 							}
 						},
 						{
@@ -824,55 +1100,9 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 1950,
+						"extended_value": 18800,
 						"weight": "0 lb",
-						"extended_weight": "57 lb"
-					}
-				},
-				{
-					"id": "eOS-wkyK0fAhkfuZ7",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "ev1oCQpyENWw7NIi0"
-					},
-					"description": "Holy Symbol",
-					"reference": "DF1:26",
-					"tags": [
-						"Esoteric Supplies"
-					],
-					"base_value": "50",
-					"base_weight": "1 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 50,
-						"extended_value": 50,
-						"weight": "1 lb",
-						"extended_weight": "1 lb"
-					}
-				},
-				{
-					"id": "eM9VrOU4478pyGQSn",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "eL-sN4ie99_wHT2_d"
-					},
-					"description": "Group Basics",
-					"reference": "DF1:23",
-					"local_notes": "Basic EQ for Cooking/Survival for 3-8 people",
-					"tech_level": "1",
-					"tags": [
-						"Camping and Survival Gear"
-					],
-					"base_value": "50",
-					"base_weight": "20 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 50,
-						"extended_value": 50,
-						"weight": "20 lb",
-						"extended_weight": "20 lb"
+						"extended_weight": "2,104.5 lb"
 					}
 				},
 				{
@@ -882,6 +1112,158 @@
 					"quantity": 1,
 					"equipped": true,
 					"children": [
+						{
+							"id": "E6KoP7TfJ73NbZHSJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Dungeon Fantasy/Dungeon Fantasy 1/Dungeon Fantasy 1 Equipment.eqp",
+								"id": "EtRMv4YaZgXWyEv33"
+							},
+							"description": "Potion Vial",
+							"reference": "DF1:24",
+							"local_notes": "½ pt, DR 1, HP 1, fragile",
+							"tags": [
+								"Container"
+							],
+							"base_value": "1",
+							"base_weight": "0.25 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_most",
+											"qualifier": "0.5 lb"
+										}
+									}
+								]
+							},
+							"quantity": 1,
+							"calc": {
+								"value": 1,
+								"extended_value": 1,
+								"weight": "0.25 lb",
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "E5iB9x8Bt8PaDuwoP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "EuGI_rINmmR1_0fFF"
+							},
+							"description": "Leather Pouch with Flap",
+							"reference": "LT34",
+							"local_notes": "0.27 cu. ft.",
+							"tech_level": "0",
+							"tags": [
+								"Container",
+								"Storage"
+							],
+							"base_value": "10",
+							"base_weight": "1.25 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_most",
+											"qualifier": "20 lb"
+										}
+									}
+								]
+							},
+							"quantity": 1,
+							"calc": {
+								"value": 10,
+								"extended_value": 10,
+								"weight": "1.25 lb",
+								"extended_weight": "1.25 lb"
+							}
+						},
+						{
+							"id": "EN_9_C-FGWKHnJ04J",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "Er90kKqRnJwfxtXDm"
+							},
+							"description": "Cloth Bag, 40 gallons",
+							"reference": "LT34",
+							"local_notes": "DR 0; HP 6; Fragile (Combustible) see B136",
+							"tech_level": "0",
+							"tags": [
+								"Container"
+							],
+							"base_value": "20",
+							"base_weight": "3 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_most",
+											"qualifier": "291.5 lb"
+										}
+									}
+								]
+							},
+							"quantity": 1,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "3 lb",
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "EqExNkJY2L2Ab_UKr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "EkWN2-tHDR3t41hmn"
+							},
+							"description": "Carry Frame",
+							"reference": "LT36",
+							"local_notes": "2d+10 seconds per item to load; 1d+10 seconds per item to unload",
+							"tech_level": "0",
+							"tags": [
+								"Container"
+							],
+							"base_value": "60",
+							"base_weight": "7 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_most",
+											"qualifier": "100 lb"
+										}
+									}
+								]
+							},
+							"quantity": 1,
+							"calc": {
+								"value": 60,
+								"extended_value": 60,
+								"weight": "7 lb",
+								"extended_weight": "7 lb"
+							}
+						},
 						{
 							"id": "EHkz-gyHs4LiL1S_F",
 							"source": {
@@ -1109,63 +1491,17 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 275,
+						"extended_value": 366,
 						"weight": "0 lb",
-						"extended_weight": "20 lb"
-					}
-				},
-				{
-					"id": "eB9qMfSMua4XhVo2h",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "ezvB5b3YEpSINzYfM"
-					},
-					"description": "Burning Glass",
-					"reference": "DF1:26",
-					"local_notes": "Sets fires with sunlight",
-					"tags": [
-						"Optics"
-					],
-					"base_value": "40",
-					"base_weight": "0.25 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 40,
-						"extended_value": 40,
-						"weight": "0.25 lb",
-						"extended_weight": "0.25 lb"
-					}
-				},
-				{
-					"id": "eBto1fYeDpnMh9T67",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Dungeon Fantasy\\Dungeon Fantasy 1\\Dungeon Fantasy 1 Equipment.eqp",
-						"id": "esH8ny1hQqnuYT1-n"
-					},
-					"description": "Blanket",
-					"reference": "DF1:23",
-					"tech_level": "1",
-					"tags": [
-						"Camping and Survival Gear"
-					],
-					"base_value": "20",
-					"base_weight": "4 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 20,
-						"extended_value": 20,
-						"weight": "4 lb",
-						"extended_weight": "4 lb"
+						"extended_weight": "31.5 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 4546,
+				"extended_value": 21492,
 				"weight": "0 lb",
-				"extended_weight": "144.183 lb"
+				"extended_weight": "2,202.683 lb"
 			}
 		},
 		{
@@ -11297,6 +11633,347 @@
 				"extended_value": 1151,
 				"weight": "0 lb",
 				"extended_weight": "191 lb"
+			}
+		},
+		{
+			"id": "ETPYDCPS3_BfK0vFP",
+			"description": "Food, Drink \u0026 Accommodations",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EPjgKAfDBDEban37o",
+					"description": "Accommodations",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "e9HCEd9HvXQRpVIqn",
+							"description": "Inn stay for one night, very poor",
+							"local_notes": "This is the floor of the dormitory, or similar ad-hoc accommodation, such as a hayloft when there is no more space.",
+							"legality_class": "4",
+							"base_value": "20",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e7dOw011g6VxAJu6L",
+							"description": "Inn stay for one night, poor",
+							"local_notes": "This is a large dormitory capable of sleeping up to 20 guests in beds and more on the floor. Dormitories are usually serviceable and clean, but they are often noisy places, especially when full of snoring, drunken travellers. Dormitories are frequently used by poorer guests. ",
+							"legality_class": "4",
+							"base_value": "60",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 60,
+								"extended_value": 60,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eLXb0tV9dumO-viYs",
+							"description": "Inn stay for one night, comfortable",
+							"local_notes": "These rooms offer privacy and comfort, being better furnished than the dormitories. A typical room sleeps two comfortably, but four can be accommodated by sharing beds. ",
+							"legality_class": "4",
+							"base_value": "240",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 240,
+								"extended_value": 240,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eKlaq-WVLsWbbL8Of",
+							"description": "Inn stay for one night, Fine",
+							"local_notes": "Finer inns offer accommodations with attached servant's quarters and separate fireplaces, offering a hint of luxury for the weary traveler. One large bed and two smaller ones.",
+							"legality_class": "4",
+							"base_value": "500",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 500,
+								"extended_value": 500,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 820,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "E8bZQeH3Dxn1iVh1K",
+					"description": "Drink",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eHC2dXt55yqiUiEZI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eq2RScvAPgcqOnNIG"
+							},
+							"description": "Beer",
+							"reference": "LT37",
+							"local_notes": "Good beer. A few of these is enough for a Carousing roll.",
+							"tech_level": "1",
+							"tags": [
+								"Drink",
+								"Food"
+							],
+							"base_value": "0.5",
+							"base_weight": "1 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 0.5,
+								"extended_value": 0.5,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "extqW8v7AluK5Q4at",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ewr_Ft60av2hieWlF"
+							},
+							"description": "A Large Beer",
+							"reference": "LT37",
+							"local_notes": "Huge tankardful of good, strong beer. Enough for a Carousing roll.",
+							"tech_level": "1",
+							"tags": [
+								"Drink",
+								"Food"
+							],
+							"base_value": "2",
+							"base_weight": "2 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 2,
+								"extended_value": 2,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "e3SVOYOsrIrzvqneF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ewr_Ft60av2hieWlF"
+							},
+							"description": "Bottle of wine",
+							"reference": "LT37",
+							"local_notes": "Wine of local winery, plenty for a Carousing roll, even for a larger man.",
+							"tech_level": "1",
+							"tags": [
+								"Drink",
+								"Food"
+							],
+							"base_value": "5",
+							"base_weight": "2.5 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "2.5 lb",
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "eaIYmtbVDvRGBxgoB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "ewr_Ft60av2hieWlF"
+							},
+							"description": "Bottle of liquor",
+							"reference": "LT37",
+							"local_notes": "A nice schnapps or similar. Enough for a carousing roll for several men.",
+							"tech_level": "1",
+							"tags": [
+								"Drink",
+								"Food"
+							],
+							"base_value": "20",
+							"base_weight": "2.5 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "2.5 lb",
+								"extended_weight": "2.5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 27.5,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "EgW9SfjnnQJQ15B3B",
+					"description": "Food",
+					"local_notes": "Lunch is typically not served, people rely on take-away style stuffed pies or meats and vegetables cooked on skewers, a simple lunch of bread, cheese and maybe bacon is also popular. The stewpot is also often on for the whole day. Use travel ration prices, except the food is generally better but goes bad unless eaten soon.",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ejvIWg5n8ghe3lIA8",
+							"description": "Tavern Breakfast, very poor",
+							"local_notes": "Bowl of beer gruel or stale bread with hard cheese, possibly brined fish.",
+							"legality_class": "4",
+							"base_value": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 1,
+								"extended_value": 1,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eDE_NebCN-AuqLitQ",
+							"description": "Tavern Dinner, very poor",
+							"local_notes": "Bowl of soup or pottage, more bread and cheese.",
+							"legality_class": "4",
+							"base_value": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 1,
+								"extended_value": 1,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eHZzRHJXcxOzC4WAs",
+							"description": "Tavern Breakfast, poor",
+							"local_notes": "Vegetables cooked in bacon fat (with the bacon) or small offal or vegetable pie, possibly eggs.",
+							"legality_class": "4",
+							"base_value": "3",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 3,
+								"extended_value": 3,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eZ_FIjyEaIQ6L1gCk",
+							"description": "Tavern Dinner, poor",
+							"local_notes": "Bowl of stew or a sizeable pie of either meat or fish.",
+							"legality_class": "4",
+							"base_value": "3",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 3,
+								"extended_value": 3,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eyM4rh6sT7WIG2Vfl",
+							"description": "Tavern Breakfast, comfortable",
+							"local_notes": "This morning's bread with fresh butter and eggs, smoked fish or ham, possibly hot broth.",
+							"legality_class": "4",
+							"base_value": "6",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 6,
+								"extended_value": 6,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eSxvsmov7baoa-D9J",
+							"description": "Tavern Dinner, comfortable",
+							"local_notes": "Day's catch of grilled fish served with vegetables or fried beans. Possibly game meats or roasted sausage slices.",
+							"legality_class": "4",
+							"base_value": "6",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 6,
+								"extended_value": 6,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eKTrPCzfERl9j2cL2",
+							"description": "Tavern Breakfast, fine",
+							"local_notes": "Grilled chicken, bread drenched in cream or wine, possibly fresh or preserved fruit.",
+							"legality_class": "4",
+							"base_value": "12",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 12,
+								"extended_value": 12,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eeGrD1StpqHuTjRIS",
+							"description": "Tavern Dinner, fine",
+							"local_notes": "Day's roast with rich sauce, sweet pies, stuffed eggs, honey-roasted vegetables.",
+							"legality_class": "4",
+							"base_value": "12",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 12,
+								"extended_value": 12,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 44,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 891.5,
+				"weight": "0 lb",
+				"extended_weight": "8 lb"
 			}
 		}
 	]
