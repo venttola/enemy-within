@@ -2,6 +2,66 @@
 	"version": 5,
 	"rows": [
 		{
+			"id": "EjB5PJePtyu6dub1L",
+			"description": "Coin Purse",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e0zKkSzbdb4BvRLAk",
+					"description": "Pfennig",
+					"legality_class": "4",
+					"base_value": "1",
+					"base_weight": "0.025",
+					"quantity": 0,
+					"equipped": true,
+					"calc": {
+						"value": 1,
+						"extended_value": 0,
+						"weight": "0.025 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eoud4lNOkK73X9Osl",
+					"description": "Schilling",
+					"legality_class": "4",
+					"base_value": "10",
+					"base_weight": "0.025",
+					"quantity": 0,
+					"equipped": true,
+					"calc": {
+						"value": 10,
+						"extended_value": 0,
+						"weight": "0.025 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eEosVoJuPIbtW2gP8",
+					"description": "Gold Crown",
+					"legality_class": "4",
+					"base_value": "200",
+					"base_weight": "0.025",
+					"quantity": 0,
+					"equipped": true,
+					"calc": {
+						"value": 200,
+						"extended_value": 0,
+						"weight": "0.025 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "Efotn6xDwaU7FY-li",
 			"description": "Adventuring Gear",
 			"local_notes": "This folder is for convenience only, many other types of TL 0-4 equipment is available.",
@@ -7183,7 +7243,7 @@
 							"base_weight": "5 lb",
 							"weapons": [
 								{
-									"id": "w0VtcT07dX1yOebi4",
+									"id": "wrTXO2hRWqf12KZ1f",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7219,7 +7279,7 @@
 									}
 								},
 								{
-									"id": "wCe8piSoZyxy0c5E1",
+									"id": "wqwi8bxQnmCc8nMay",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7256,7 +7316,7 @@
 									}
 								},
 								{
-									"id": "wrXfq6ZC-YboP3U4_",
+									"id": "wu0N1pFt4cUkJStLS",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7297,7 +7357,7 @@
 									}
 								},
 								{
-									"id": "wHOYubzoh3k3cMOux",
+									"id": "wb8snnoP2dLk_6F90",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7339,7 +7399,7 @@
 									}
 								},
 								{
-									"id": "wnXEB-DsEkGK1Cjh_",
+									"id": "wUNPIWN7Mj1edh8XD",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7348,12 +7408,32 @@
 									},
 									"usage": "Spike",
 									"reach": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									],
 									"calc": {
 										"damage": "thr+1 imp"
 									}
 								},
 								{
-									"id": "wdT171ByNy9omq0oh",
+									"id": "wKlNvJ9VxWm2NfIm_",
 									"sv": 1,
 									"damage": {
 										"type": "imp",
@@ -7362,12 +7442,32 @@
 									},
 									"usage": "Spike, two handed",
 									"reach": "1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										}
+									],
 									"calc": {
 										"damage": "thr+2 imp"
 									}
 								},
 								{
-									"id": "WJX9Fs-bqreKUHw-N",
+									"id": "W7VSpsjVrmARnWYsa",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -7399,7 +7499,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "fhix9W8D5sniDy6fi",
+									"id": "fOyeRoBG4mRpG8tgp",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
 										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
@@ -7412,7 +7512,7 @@
 									"weight": "+0.5 lb"
 								},
 								{
-									"id": "fIluBKEdTKya3fxCx",
+									"id": "fr9Ox4Co6C0dkQ2QD",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
 										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
