@@ -99,6 +99,117 @@
 					"equipped": true,
 					"children": [
 						{
+							"id": "eOv9qfazx2xIytDbp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech\\Low Tech Equipment.eqp",
+								"id": "ee1kRIRXHzUdofj74"
+							},
+							"description": "Small Belt Knife",
+							"reference": "LT58",
+							"local_notes": "Tool-grade",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon",
+								"Missile Weapon"
+							],
+							"base_value": "15",
+							"base_weight": "0.25 lb",
+							"weapons": [
+								{
+									"id": "wFK58L3Jgh7vDUdWj",
+									"sv": 1,
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "-3"
+									},
+									"strength": "5",
+									"usage": "Swung",
+									"reach": "C,1",
+									"parry": "-1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -1
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "sw-3 cut"
+									}
+								},
+								{
+									"id": "wtpOWlVNh1CNTkPV3",
+									"sv": 1,
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "-1"
+									},
+									"strength": "5",
+									"usage": "Thrust",
+									"reach": "C",
+									"parry": "-1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -1
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "thr-1 imp"
+									}
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 15,
+								"extended_value": 15,
+								"weight": "0.25 lb",
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
 							"id": "eB9qMfSMua4XhVo2h",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -278,9 +389,9 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 142.4,
+						"extended_value": 157.4,
 						"weight": "0 lb",
-						"extended_weight": "26.783 lb"
+						"extended_weight": "27.033 lb"
 					}
 				},
 				{
@@ -1572,21 +1683,37 @@
 								"weight": "10 lb",
 								"extended_weight": "10 lb"
 							}
+						},
+						{
+							"id": "EvD8m7Ga3LH4rpM7K",
+							"description": "Haversack",
+							"local_notes": "Worn on the shoulder. Holds 10 lbs. of gear. ",
+							"legality_class": "4",
+							"base_value": "30",
+							"base_weight": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 30,
+								"extended_value": 30,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 366,
+						"extended_value": 396,
 						"weight": "0 lb",
-						"extended_weight": "31.5 lb"
+						"extended_weight": "32.5 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 21492.4,
+				"extended_value": 21537.4,
 				"weight": "0 lb",
-				"extended_weight": "2,202.716 lb"
+				"extended_weight": "2,203.966 lb"
 			}
 		},
 		{
