@@ -2,6 +2,2260 @@
 	"version": 5,
 	"rows": [
 		{
+			"id": "E8u6TPgU0Xi0iJLWl",
+			"description": "Clothing",
+			"local_notes": "Apprentices/Journeymen count as 1 lower status than typical craftsmen, Masters count as 1 higher. The same logic can be applied to many other professions than craftsmen. (For example, a Watch sergeant or a successful Mercenary would have Status 0, not -1)",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EqgHy8ifGf_tIpmqk",
+					"description": "Status -2",
+					"local_notes": "Porter, Servant, Bathmaid, Beggar, Unskilled Laborer, Camp Follower, Entertainer",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ekfjlDHV0w2KyeKJP",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "fZFPBBzq8LoNF3h7G",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2"
+								},
+								{
+									"id": "fkNwjee24TgddzpUL",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fSz2_e_Sg3GxZz0fy",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fZSKF6Ld3pSpneBjB",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fep4dCbTRouVAyjY2",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fX7zFqmpaUWDTfKJ7",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fydRegaRTnqpNttHL",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fxfNISVoWIPUcRK2n",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "f9uWtcETmzwyKmOd3",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "f-vHaKtVpVwdK7HqF",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fTZCMWSPcumBLOMvY",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 24,
+								"extended_value": 24,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "eY1f2rNgXYyZoxXaa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "f3tpcIo3ad7jBM-Bh",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2"
+								},
+								{
+									"id": "fFKrFqg3OHGT4ch37",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fnmlicrurU-u45SjQ",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fUVJbz1khsV5RH2Dr",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fPiMu0XLDmgpOf_mJ",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "f26BZGwTpLtSXwEaC",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fRsZFshiGSX0zGC95",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fefEKBIjdg45P7j74",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "ffXWnf8Kgtrc779SG",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "flFF-tVCrhNGVei7s",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "f3WrGsOBP3xu5qIQ_",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 12,
+								"extended_value": 12,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eGORMl8-xplS14n3i",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fQZNlnIuX6QnA-tir",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2"
+								},
+								{
+									"id": "fAodP8STvp5UbDuqi",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fr5uwADK2eOippDR_",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fJAxMQe7Z_HhpgeiT",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "f4f_UMmRlvmShSrFs",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "ftIzyVRb2XN0o5ULE",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fDYK-NE4Wkfvbj-dC",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fOJ5c2f56CQIZeXqM",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fMlFXc3NsZ3cNLwxi",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "f25nY3kyjB5T6Hmyk",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "f_gBa9oXwLB-G5VE8",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 36,
+								"extended_value": 36,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 72,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "EqTLW48NGhVaYcCLz",
+					"description": "Status -1",
+					"local_notes": "Barber-Surgeon, Fisherman, Gatherer, Hunter, Animal Driver, Laborer, Charcoal-Burner, Courier, Herdsman, Miner, Sailor, Sherf, Sharecropper, Soldier, Village Blacksmith, Watchman",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eBvYOku-3n9V2TKcs",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "flWTbBubVV6NbqSh_",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fA_0e7o8iAh01gXzF",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5"
+								},
+								{
+									"id": "fqF4CAbTdDdPBeL6_",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fbczn7ZooO2ukmm3_",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fMwWYltqrMZ0CcQhQ",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fhSsOJ_rrn_tyHixK",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fjZ6Z8U5fulKhmab_",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fgmKeJq3HJ5tM_gBa",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fEXG523A_cfayU_rU",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fasr-QYxKyFESPTPL",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fGf_qCHy6qEd1noMW",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 60,
+								"extended_value": 60,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "edk60jNfaIjFZ0EXG",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "f9Mubsa8EVbMTFJik",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fQN3zTP6Lgn13USX6",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5"
+								},
+								{
+									"id": "fqHE4DTLm4CngSmbD",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fAY-cjTXf8xp4q6NY",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fD48AOpwYtrmwTeRt",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fEfamT6zSkkTcsP7F",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fV2sg7uC7CcbfjU-R",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "feFe-5IWUiXxVnJAn",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fE_ni6X82eZ6CwvJC",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fxKVrt2-o__v4QmJT",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fxbOARcDt520e6Hf7",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 30,
+								"extended_value": 30,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eUig34sXupfKs9lQ2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "f-e93RXC1IAsC4D1e",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fT9AfG2S0zSn_Giz4",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5"
+								},
+								{
+									"id": "fMx_vXKBjlXYluX3Y",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fYKuusfUwZTAhaAto",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "ftdgSrJg-B88j82mW",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fPAOhCfPoKMP29b7T",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fQFBwWrcvXfoDZwl6",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fUnDvnfzlt0N0Mbmj",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fjjf8Luv0ICaQpUVC",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fT7SPwAAFYm9Tx_o6",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fL2kkf08pAO77CmYF",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 90,
+								"extended_value": 90,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 180,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "Ebut8a09vqXWL3MDJ",
+					"description": "Status 0",
+					"local_notes": "Alchemist, Brewer, Carpenter, Clerk, Clothmaker, Freeman Farmer, Forester/Gamekeeper, Glassblower, Mason, Merchant, Miller, Potter, Scribe, Shipwright, Smith, Tailor, Tanner, Teacher",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eqBlXlkY6s8pNf0Fk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "fr-7scNwNrdNbPHqc",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fgmW4QE3_4BJgBLtl",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fAxtl0L7KBe91IUd3",
+									"name": "Status 0",
+									"cost": "+0"
+								},
+								{
+									"id": "f3eyTGGcSeabBgTVE",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fdKotQBtVpB9MJ8m_",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fSVOiJ8zql2FmiM_X",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fMdqn3m0NjIU75iD8",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fjwVLtxWT2ezpOCOS",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fDLO1YfQ82jbRVvE7",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "f4kkiw__4LJd1vypW",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fE0RtW2n8_5uPbFG3",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 120,
+								"extended_value": 120,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "ewhm5T8Bo-73Zmslq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "fIP6srNg2WKjJwFY6",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "f9GBfmSYsiusUFul0",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "flvOxbzruSqPXDUpX",
+									"name": "Status 0",
+									"cost": "+0"
+								},
+								{
+									"id": "f7HWgDdiTsirPJoox",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fbLO3rQTdEaHFnlr0",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fvM-biP_eWJMsOy84",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fnIw788lY8sAWHIrb",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "feawdCBTHtIYlddLm",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fNXfjwlksuMF4lYWv",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fna9CTSun1yy17_s2",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fi_QO0a5nsI2CKEvw",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 60,
+								"extended_value": 60,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eaTyNpqZ3qJBAz7y8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fkkoszeET_qmumxMJ",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "f10FZSf-oEKqTVdBb",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fzbmdoKkhQtP0TOoH",
+									"name": "Status 0",
+									"cost": "+0"
+								},
+								{
+									"id": "fIAgUtXOlBRaIlRmF",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fqTECUr3ZCDjxjwrh",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "f9fykBGy3SzWIYkZb",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fx12Z8twfg-toMUHE",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "faYHId2iPF_qlmwt_",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fg6lzxbMUf9rrFJ8r",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fZPRAaXhpfDTrAwgi",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fKFonlLvaaPUKkyjC",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 180,
+								"extended_value": 180,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 360,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "E-ge5vm8xGZYWmyCg",
+					"description": "Status 1",
+					"local_notes": "Armorer, Jeweler, Clockmaker, Priest, Physician",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eDrJLCmbJLpHrIevV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "fYcRtNzRvkBDWkIGy",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fk50_JBoB7Y2b8UBN",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "f_uV6YH577iYNzSes",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fdLbryBSa1DsQHnf1",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2"
+								},
+								{
+									"id": "fx2OxBZ3rZJnSJWfz",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fs2DutcotZVbXvL4A",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fbQJl45e6wUiM4JbB",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "f1oxJzEQfHM9GVxvJ",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fmNQ3oVcI3GAbRje5",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fMBg9Pe6V1lg0ip9T",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fcWyHwRjVEAEFqepx",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 240,
+								"extended_value": 240,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "eHMSMG9ufJFNWYaw3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "fhPZ7rCIfqpra2YG7",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "f9BjtDVBdGWMFKdP_",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fJIF10awO30l5tPyY",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fq88yXZLE1COWzF28",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2"
+								},
+								{
+									"id": "fpXrlHW0uMt5eT3PP",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "f2F9WLSdtLqQaUrF-",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "f7cntZTXpPUhWizYL",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "flCgTmq3yXdlGIaHC",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fA9X08ec0WBhhvmA8",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fbJDn4EpOo6Z3SWp7",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fWqTPKpvenZE6QK3V",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 120,
+								"extended_value": 120,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eRSYJ4iHIZrsclfHy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fEP_nTYTJoMqybavK",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fY_Et8Zeju2i_aSHu",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "flD0DpyotyhBkb2D4",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fuD04cr82sCg_xZmr",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2"
+								},
+								{
+									"id": "f685LoHdC_xhkPnw0",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fEEyhcROYSEjrFYv1",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "f14-s5ogdkw_HWaYS",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fophyIeFm6SpwIcn0",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fcP7BTS_S-sAPvBy6",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fEiXmt-Z2b4GRnW1Z",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "f1tnEhWoKeU8M5PTa",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 360,
+								"extended_value": 360,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 720,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "EIlLAiEzcPsvNGLI_",
+					"description": "Status 2",
+					"local_notes": "Architect, Bureaucrat, Magistrate, Money-Lender, Landless Knight",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "exFwm2-wvEUpdjn66",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "fsfKil5Z17k6FNmh6",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fBGvA1isA_7Ej1Mjo",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fGc2Atx17T9S8Ezq_",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fdImlP7dh94rJP1iC",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fw9PSiKVraKrkeKoR",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5"
+								},
+								{
+									"id": "fgWOn8x3wZBuzBJmw",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fHmXtzfSVh3uWWwyB",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fq9FF-FXZGsZ0mVo5",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fMGCzaMk1t9kfCAyi",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fhtBC6ickuJPuR6YE",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fnL2Yx65evsoCRz7t",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 600,
+								"extended_value": 600,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "eLsP1BoU8HrMSDl3F",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "fK9RLWYzWEzyTyKjV",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fYUeAYrIx0C1mgsN_",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fGf4kahmKb-BQASai",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "f5mJXWdQehPifzYs9",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fAiOiFMSMmOf5CK7o",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5"
+								},
+								{
+									"id": "fPUDdduiD4mq4y2bN",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "f3j41YKCywtkrJjAd",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fugljF_OupCvQ0oT0",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fHbNf5VzIc8ipJzdF",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fgv7VLmtQIBHvTec9",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fVF2qkB4N4Hzo8kk5",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 300,
+								"extended_value": 300,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "e0ZpajhFKcqiXJEFT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fWETUlQUg_uIcjf2c",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fOJeloo12IWIRcJ1P",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fyDHmOBUkNTVf--xs",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "f4iT_uqCnOa6_LvIg",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fmzw-HpuFn4XQYVD-",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5"
+								},
+								{
+									"id": "fvuip0jzhoi4Qy2qr",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20",
+									"disabled": true
+								},
+								{
+									"id": "fQrvZ6xBb4ooLU3Ii",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fHE5CWMV6ytpN3RAx",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "f4ZdOI7qDBcMtSXuu",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fvPbef7giFakFTPs5",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fBrmQH2nIXIop8LUn",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 900,
+								"extended_value": 900,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 1800,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "ElXZDrlu8bpfTVcLD",
+					"description": "Status 3",
+					"local_notes": "Landed Knight, Guild Master, Big City Mayor",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ePqevIqiUp6F8kEPo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eTONLiYjf4rvd5vlF"
+							},
+							"description": "Clothing, Ordinary",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "120",
+							"base_weight": "2 lb",
+							"modifiers": [
+								{
+									"id": "fNHIyV_FT3ahP9WZk",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "fYzlr92s439yyW_0H",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "flV0mThinyhghrNrc",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fcLNpsj3BolZeN5Rf",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fNi6d-LmhcOHiBSYn",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fxGR-efyBOUCEq_AT",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20"
+								},
+								{
+									"id": "foPZql5wVGz9Vmh1f",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fdgWLtJHt53WkfeaY",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fpwmdJ8YgTQmCdDO5",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "faYZBkUZN40s1si84",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fzYvWtIlfn6C1b96_",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 2400,
+								"extended_value": 2400,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "e7KSk5BQyOeZ3-Xvj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eGUYdu0e_Fr2qQGvO"
+							},
+							"description": "Clothing, Summer",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "60",
+							"base_weight": "1 lb",
+							"modifiers": [
+								{
+									"id": "fuqIbAEvG7VENaPEY",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "f8e2R7gk4-IznuJRZ",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "f2BOSGcviOaQkBvvv",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fghYqzau7r9x2MVvt",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "f3s-046ARJq3Ih9Y6",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "fe_9oH1ggGWt6R9P-",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20"
+								},
+								{
+									"id": "fXdyKtDvVxxvFkr_b",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fcNeqrtNUp6KuSrcx",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "f4cLf72paW1lTlROd",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "f2xkNYOu1MAjRcP8j",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "f4IBRDunGkdrOc72f",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 1200,
+								"extended_value": 1200,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "e2myQIdb121la7fkr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eZ_G7OWk6IyWaRfSo"
+							},
+							"description": "Clothing, Winter",
+							"reference": "LT98",
+							"tech_level": "0",
+							"tags": [
+								"Clothing"
+							],
+							"base_value": "180",
+							"base_weight": "5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"specialization": "cutting",
+									"amount": 1
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fX-0_CHukQNfd2bjJ",
+									"name": "Status -2",
+									"cost_type": "to_final_cost",
+									"cost": "x0.2",
+									"disabled": true
+								},
+								{
+									"id": "f5U8mZSR02kgiTLqX",
+									"name": "Status -1",
+									"cost_type": "to_final_cost",
+									"cost": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "fjNJm-trWQwIQNb8Q",
+									"name": "Status 0",
+									"cost": "+0",
+									"disabled": true
+								},
+								{
+									"id": "fzNsvgCL8QAQ3FyTb",
+									"name": "Status 1",
+									"cost_type": "to_final_cost",
+									"cost": "x2",
+									"disabled": true
+								},
+								{
+									"id": "fj1yxpyt5yu7OGbHD",
+									"name": "Status 2",
+									"cost_type": "to_final_cost",
+									"cost": "x5",
+									"disabled": true
+								},
+								{
+									"id": "f5SDMBDlVcPQEmKIi",
+									"name": "Status 3",
+									"cost_type": "to_final_cost",
+									"cost": "x20"
+								},
+								{
+									"id": "fG45NYKLYzjLLY5V2",
+									"name": "Status 4",
+									"local_notes": "Lesser noble, congressional representative",
+									"cost_type": "to_final_cost",
+									"cost": "x100",
+									"disabled": true
+								},
+								{
+									"id": "fb5bavDy3w1KB-utx",
+									"name": "Status 5",
+									"local_notes": "Great noble, multinational corporate boss",
+									"cost_type": "to_final_cost",
+									"cost": "x1000",
+									"disabled": true
+								},
+								{
+									"id": "fSeeouAFppUATscb1",
+									"name": "Status 6",
+									"local_notes": "Royal family, governor",
+									"cost_type": "to_final_cost",
+									"cost": "x10000",
+									"disabled": true
+								},
+								{
+									"id": "fGl7u_7vIeJsWKq6_",
+									"name": "Status 7",
+									"local_notes": "King, pope, president",
+									"cost_type": "to_final_cost",
+									"cost": "x100000",
+									"disabled": true
+								},
+								{
+									"id": "fpJBFtC6bQVphRTib",
+									"name": "Status 8",
+									"local_notes": "Emperor, god-king, overlord",
+									"cost_type": "to_final_cost",
+									"cost": "x1000000",
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 3600,
+								"extended_value": 3600,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 7200,
+						"weight": "0 lb",
+						"extended_weight": "8 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 10332,
+				"weight": "0 lb",
+				"extended_weight": "48 lb"
+			}
+		},
+		{
 			"id": "EjB5PJePtyu6dub1L",
 			"description": "Coin Purse",
 			"legality_class": "4",
@@ -12228,6 +14482,168 @@
 				"extended_value": 891.5,
 				"weight": "0 lb",
 				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "EF2V7-_43R9a4yCJf",
+			"description": "Services",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EvbYy3dATTP_NacwV",
+					"description": "Bathhouse Services",
+					"local_notes": "Many bathhouses also serve food and drink, and often have a barber on staff for grooming and simple medical procedures. A visit to the bathhouse typically takes 1-3 hours, depending on the amount of services purchased.",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eIzNQhMxfOPtRx0Zf",
+							"description": "Laundry",
+							"local_notes": "Cost assumes normal dirtiness from travel and combat, exceptionally disgusting jobs cost at least double.",
+							"legality_class": "4",
+							"base_value": "2",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 2,
+								"extended_value": 2,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eEMt7ONZiswEnsckN",
+							"description": "Repair",
+							"local_notes": "Maintenance and repair of clean clothes",
+							"legality_class": "4",
+							"base_value": "3",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 3,
+								"extended_value": 3,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eW93fo_pMakL1UvkP",
+							"description": "Bath",
+							"local_notes": "A nice bath",
+							"legality_class": "4",
+							"base_value": "2",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 2,
+								"extended_value": 2,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eGfdQTi5wHqB5b9wW",
+							"description": "Companionship For Bath",
+							"legality_class": "4",
+							"base_value": "5",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e4Q6NzIXuXLV0aJ3S",
+							"description": "Medical Assistance",
+							"local_notes": "Minor surgical procedures, treatment for shock or a long-term medical care roll (typically using Pharmacy (Herbal) or Esoteric Medicine instead of Physician)",
+							"legality_class": "4",
+							"base_value": "5",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eI_IwRQanwKYnW1vB",
+							"description": "Haircut and/or Shave",
+							"legality_class": "4",
+							"base_value": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 1,
+								"extended_value": 1,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 18,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "e_lnPIyWgBs9mc3Qs",
+					"description": "Courier, per hour",
+					"legality_class": "4",
+					"base_value": "2",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 2,
+						"extended_value": 2,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "epmHP6keV-BMfxD35",
+					"description": "Armorer, per hour",
+					"local_notes": "Repair or refitting of equipment. Repairs usually take about 1 hour for equipment that still has positive hit points and 2 hours for ones with negative hit points. Resizing a piece of armor for a new user takes 1 hour.",
+					"legality_class": "4",
+					"base_value": "10",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 10,
+						"extended_value": 10,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "ezaBAQpZTfkS3tvvi",
+					"description": "Porter, per day",
+					"legality_class": "4",
+					"base_value": "8",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 8,
+						"extended_value": 8,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 38,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
 			}
 		}
 	]
