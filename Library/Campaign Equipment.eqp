@@ -5958,6 +5958,265 @@
 					"equipped": true,
 					"children": [
 						{
+							"id": "eSJQjzkVl9Sz6M1_S",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech/Low Tech Equipment.eqp",
+								"id": "eNAbv7FBdpbO8-1Ov"
+							},
+							"description": "Ahlspiess",
+							"reference": "LT61",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon"
+							],
+							"base_value": "10",
+							"base_weight": "4 lb",
+							"weapons": [
+								{
+									"id": "wtIbve0UuRhVKhWVD",
+									"sv": 1,
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "2"
+									},
+									"strength": "8†",
+									"usage": "Swung",
+									"reach": "1-2",
+									"parry": "2",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Staff"
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Spear",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"level": 9,
+										"damage": "1d+2 cr",
+										"parry": "9"
+									}
+								},
+								{
+									"id": "weMeSevYrTOEXGc47",
+									"sv": 1,
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "2"
+									},
+									"strength": "8†",
+									"usage": "Thrust",
+									"reach": "1-2",
+									"parry": "2",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Staff"
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Spear",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"level": 9,
+										"damage": "1d cr",
+										"parry": "9"
+									}
+								},
+								{
+									"id": "w8YhQoGUy4c5LpztA",
+									"sv": 1,
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "1",
+										"armor_divisor": 2
+									},
+									"strength": "11",
+									"usage": "Spear Thrust",
+									"reach": "1*",
+									"parry": "1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Spear"
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Staff",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"level": 8,
+										"damage": "1d-1(2) imp",
+										"parry": "8"
+									}
+								},
+								{
+									"id": "wWi-qChvk8BjHEMoX",
+									"sv": 1,
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "2",
+										"armor_divisor": 2
+									},
+									"strength": "10†",
+									"usage": "Spear Thrust - two hands",
+									"reach": "1-2*",
+									"parry": "1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Spear"
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Staff",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"level": 9,
+										"damage": "1d(2) imp",
+										"parry": "8"
+									}
+								}
+							],
+							"modifiers": [
+								{
+									"id": "fIwaNUrtSjB2JAkZr",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
+										"id": "f9UQlRBcetv0qdxQJ"
+									},
+									"name": "Hilt",
+									"reference": "LTC2:15",
+									"cost_type": "to_base_cost",
+									"weight_type": "to_base_weight",
+									"cost": "+0.25 CF",
+									"weight": "+0.25 lb"
+								},
+								{
+									"id": "fRxrlbQk0I91RfH3G",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
+										"id": "fgRbpM_I_UZ6Rr0yX"
+									},
+									"name": "Armor-Piercer",
+									"reference": "LTC2:12",
+									"local_notes": "Add (2) to thr damage, change cut attack to cr, -1 imp damage; for arrows, swords, knives",
+									"cost_type": "to_base_cost",
+									"tech_level": "3",
+									"cost": "+3 CF",
+									"disabled": true
+								},
+								{
+									"id": "fPh0v82iH5q_Fhafw",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+										"id": "f8QPHkHEI_5cpsPvO"
+									},
+									"name": "Fine",
+									"reference": "LT59",
+									"local_notes": "Projectiles, and crushing- or impaling-only melee or thrown weapons.",
+									"cost_type": "to_base_cost",
+									"tech_level": "0",
+									"cost": "+2 CF"
+								},
+								{
+									"id": "feSlHQ3f1vnv6qi7t",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Low Tech/Low Tech Companion 2 Equipment Modifiers.eqm",
+										"id": "fVCa5n4pJNPR4N8r2"
+									},
+									"name": "Full Size Spearhead",
+									"reference": "LTC2:15",
+									"weight_type": "to_base_weight",
+									"cost": "+30",
+									"weight": "+1 lb"
+								},
+								{
+									"id": "f5If4Uzhvzim5wJC-",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Low Tech/Low Tech Equipment Modifiers.eqm",
+										"id": "fTxWsfc1SX6iVxSwd"
+									},
+									"name": "Balanced",
+									"reference": "LT59",
+									"cost_type": "to_base_cost",
+									"tech_level": "0",
+									"cost": "+4 CF",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": 1
+										}
+									],
+									"disabled": true
+								}
+							],
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 130,
+								"extended_value": 130,
+								"weight": "5.25 lb",
+								"extended_weight": "5.25 lb"
+							}
+						},
+						{
 							"id": "eObf6bfT-RsODXBcS",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -6194,9 +6453,9 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 70,
+						"extended_value": 200,
 						"weight": "0 lb",
-						"extended_weight": "6 lb"
+						"extended_weight": "11.25 lb"
 					}
 				},
 				{
@@ -10774,9 +11033,9 @@
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 7877,
+				"extended_value": 8007,
 				"weight": "0 lb",
-				"extended_weight": "158.25 lb"
+				"extended_weight": "163.5 lb"
 			}
 		},
 		{
