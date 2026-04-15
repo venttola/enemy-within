@@ -6006,9 +6006,7 @@
 										}
 									],
 									"calc": {
-										"level": 9,
-										"damage": "1d+2 cr",
-										"parry": "9"
+										"damage": "sw+2 cr"
 									}
 								},
 								{
@@ -6044,9 +6042,7 @@
 										}
 									],
 									"calc": {
-										"level": 9,
-										"damage": "1d cr",
-										"parry": "9"
+										"damage": "thr+2 cr"
 									}
 								},
 								{
@@ -6083,9 +6079,7 @@
 										}
 									],
 									"calc": {
-										"level": 8,
-										"damage": "1d-1(2) imp",
-										"parry": "8"
+										"damage": "thr+1(2) imp"
 									}
 								},
 								{
@@ -6122,9 +6116,7 @@
 										}
 									],
 									"calc": {
-										"level": 9,
-										"damage": "1d(2) imp",
-										"parry": "8"
+										"damage": "thr+2(2) imp"
 									}
 								}
 							],
@@ -12257,7 +12249,7 @@
 							"base_weight": "7 lb",
 							"weapons": [
 								{
-									"id": "wDZLUZmmy1P_O2qER",
+									"id": "weayY3IBrWJBQoDgD",
 									"sv": 1,
 									"damage": {
 										"type": "cr",
@@ -12293,7 +12285,7 @@
 									}
 								},
 								{
-									"id": "WSIlLuCxAhLrJMKK2",
+									"id": "Wav9hQtfFfokWbNZE",
 									"sv": 1,
 									"damage": {
 										"type": "pi",
@@ -12303,7 +12295,7 @@
 									"usage": "Buckshot",
 									"accuracy": "2",
 									"range": "30/600",
-									"rate_of_fire": "1x7",
+									"rate_of_fire": "1x10",
 									"shots": "1(35)",
 									"bulk": "-4",
 									"recoil": "1/6",
@@ -12381,7 +12373,7 @@
 									}
 								},
 								{
-									"id": "WP5RezvK_0xKQddUG",
+									"id": "WwtBMMmx9CrkFyZ7b",
 									"sv": 1,
 									"damage": {
 										"type": "pi++",
@@ -12476,13 +12468,248 @@
 								"weight": "7 lb",
 								"extended_weight": "7 lb"
 							}
+						},
+						{
+							"id": "eFLI1CY69IZF4o3hY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech\\High Tech Equipment.eqp",
+								"id": "eVmlHaU8DwYNspF3F"
+							},
+							"description": "Grudge Raker. 12G",
+							"local_notes": "If both barrels are fired at less than three yards, treat Recoil as 1.",
+							"tech_level": "5",
+							"legality_class": "3",
+							"base_value": "4125",
+							"base_weight": "9 lb",
+							"weapons": [
+								{
+									"id": "wu-npXmq8ssHQz4Bk",
+									"sv": 1,
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "2"
+									},
+									"strength": "9†",
+									"usage": "Buttstroke",
+									"reach": "1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Spear",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Staff"
+										}
+									],
+									"calc": {
+										"damage": "thr+2 cr"
+									}
+								},
+								{
+									"id": "WeDsndrLsTEy32zuL",
+									"sv": 1,
+									"damage": {
+										"type": "pi",
+										"base": "1d"
+									},
+									"strength": "9†",
+									"usage": "Buckshot",
+									"accuracy": "3",
+									"range": "30/600",
+									"rate_of_fire": "2x10",
+									"shots": "2(3i)",
+									"bulk": "-5",
+									"recoil": "1/6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "1d pi"
+									}
+								},
+								{
+									"id": "WSd8-gZdUat09D858",
+									"sv": 1,
+									"damage": {
+										"type": "pi++",
+										"base": "2d+2"
+									},
+									"strength": "9†",
+									"usage": ".70 Ball",
+									"accuracy": "3",
+									"range": "60/630",
+									"rate_of_fire": "2",
+									"shots": "2(3i)",
+									"bulk": "-5",
+									"recoil": "6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "2d+2 pi++"
+									}
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"value": 4125,
+								"extended_value": 4125,
+								"weight": "9 lb",
+								"extended_weight": "9 lb"
+							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 7000,
+						"extended_value": 11125,
 						"weight": "0 lb",
-						"extended_weight": "36.6 lb"
+						"extended_weight": "45.6 lb"
 					}
 				},
 				{
@@ -12583,13 +12810,36 @@
 								"weight": "0.08 lb",
 								"extended_weight": "0.08 lb"
 							}
+						},
+						{
+							"id": "eZoaebOAF5Kq7nTdY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Low Tech\\Low Tech Equipment.eqp",
+								"id": "ekt9QLYR7ywXpcCGl"
+							},
+							"description": "Grudge-Raker Wax Shell",
+							"reference": "LT94",
+							"tech_level": "4",
+							"tags": [
+								"Ammunition"
+							],
+							"base_value": "6",
+							"base_weight": "0.12 lb",
+							"quantity": 1,
+							"calc": {
+								"value": 6,
+								"extended_value": 6,
+								"weight": "0.12 lb",
+								"extended_weight": "0.12 lb"
+							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 3.5,
+						"extended_value": 9.5,
 						"weight": "0 lb",
-						"extended_weight": "0.195 lb"
+						"extended_weight": "0.315 lb"
 					}
 				},
 				{
@@ -12799,9 +13049,9 @@
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 18973.5,
+				"extended_value": 23104.5,
 				"weight": "0 lb",
-				"extended_weight": "69.645 lb"
+				"extended_weight": "78.765 lb"
 			}
 		},
 		{
